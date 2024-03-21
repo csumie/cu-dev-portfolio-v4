@@ -1,4 +1,4 @@
-VanillaTilt.init(document.querySelector(".glassmorphic-card"), {
+VanillaTilt.init(document.querySelectorAll(".glassmorphic-card"), {
 		max: 10,
 		speed: 50,
 		glare: true,
