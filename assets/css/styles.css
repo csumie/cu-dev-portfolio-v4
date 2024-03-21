@@ -5,6 +5,7 @@
   --header-height: 3rem;
   /*===== Colors =====*/
   --first-color: #090707;
+  --first-color-light: #FFFFFF;
   --first-color-dark: #000000;
   --text-color: #524748;
   --first-color-light: #7B6F71;
@@ -61,7 +62,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  background-color: var(--first-color-lighten);
+  background-color: var(--first-color-dark);
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -100,7 +101,7 @@ img {
 
 .section-title {
   font-size: var(--h1-font-size);
-  color: var(--first-color);
+  color: var(--first-color-light);
   margin-bottom: var(--mb-3);
 }
 
@@ -588,10 +589,12 @@ font-size: 1.3rem;
 }
 
 .cog-abuse ul {
+    visibility: hidden !important;
     display: none;
 }
 
 .cog-cognito hr {
+    visibility: hidden !important;
     display: none;
 }
 
