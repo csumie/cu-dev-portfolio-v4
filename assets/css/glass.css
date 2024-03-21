@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.glass-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 60vh;
+	width: 33%;
+}
+
+.glass-container .glassmorphic-card {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	z-index: 1;
+	width: 320px;
+	height: 500px;
+	padding: 40px 30px;
+	margin: 28px;
+	box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
+	border-radius: 15px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-left: 1px solid rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.1);
+	backdrop-filter: blur(5px);
+	overflow: hidden;
+}
+.glass-container .glassmorphic-card:before {
+	content: '';
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	font-size: 10em;
+	background: rgba(255,255,255,0);
+	pointer-events: none;
+}
+.glass-container .glassmorphic-card .imgBox {
+	position: relative;
+	text-align: center;
+}
+.glass-container .glassmorphic-card .imgBox i {
+	font-size: max(80px);
+	color: rgba(255,255,255, 0.1);
+}
+.glass-container .glassmorphic-card .contentBox {
+	position: relative;
+	margin-top: 20px;
+	text-align:center;
+	transition: 0.5s;
+}
+.glass-container .glassmorphic-card .contentBox:before {
+	content: '';
+    position: absolute;
+    top: -50px;
+    left: -125px;
+    width: 100%;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transform: rotate(-90deg);
+    color: rgba(0,0,0,0.2);
+}
+.glass-container .glassmorphic-card .contentBox h3 {
+	font-size: 1.8em;
+	color: #fff;
+	z-index: 1;
+}
+.glass-container .glassmorphic-card .contentBox p {
+	font-size: 1em;
+	color: #fff;
+	font-weight: 300;
+}
+.glass-container .glassmorphic-card .contentBox a {
+	position: relative;
+	display: inline-block;
+	padding: 8px 20px;
+	margin-top: 15px;
+	background: #fff;
+	border-top: 1px solid rgba(255,255,255,0.1);
+	border-left: 1px solid rgba(255,255,255,0.1);
+	color: #000;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: 500;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.glass-container p {
+	z-index: 12;
+	margin: 20px auto 10px;
+	position: relative;
+	color: #fff;
+}
+.glass-container p span {
+	font-weight: 700;
+}
