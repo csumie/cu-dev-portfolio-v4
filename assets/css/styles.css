@@ -1,17 +1,19 @@
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
   /*===== Colors =====*/
   --first-color: #090707;
   --first-color-light: #FFFFFF;
-  --first-color-dark: #000000;
+  --first-color-dark: #000103;
   --text-color: #524748;
   --first-color-light: #7B6F71;
   --first-color-lighten: #FBF9F9;
   /*===== Font and typography =====*/
-  --body-font: 'Roboto Condensed', sans-serif;
+  --body-font: 'Poppins', sans-serif;
   --biggest-font-size: 1.7rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
