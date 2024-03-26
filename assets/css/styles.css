@@ -1,6 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -372,6 +373,16 @@ font-size: 1.3rem;
   justify-self: center;
   width: 220px;
   border-radius: .5rem;
+}
+
+/*===== ROTATE =====*/
+#rotateTopLeft {
+	z-index: 4;
+	-webkit-transform: translate3d(0, 0, 0) rotate(90deg);
+	-webkit-transform-origin: 0 0;
+}
+#rotateTopLeft:target {
+	-webkit-transform: translate3d(0, 0, 0) rotate(0deg);
 }
 
 /*===== QUALIFICATION =====*/
