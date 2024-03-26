@@ -427,6 +427,12 @@ font-size: 1.3rem;
   }
 }
 
+.line {
+  border-radius: 2px;
+  color: var(--first-color-light);
+  border: 2px solid;
+  width: 100%;
+}
 
 /*===== QUALIFICATION =====*/
 .qualification__container {
