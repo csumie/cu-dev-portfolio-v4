@@ -375,16 +375,6 @@ font-size: 1.3rem;
   border-radius: .5rem;
 }
 
-/*===== ROTATE =====*/
-#rotateTopLeft {
-	z-index: 4;
-	-webkit-transform: translate3d(0, 0, 0) rotate(90deg);
-	-webkit-transform-origin: 0 0;
-}
-#rotateTopLeft:target {
-	-webkit-transform: translate3d(0, 0, 0) rotate(0deg);
-}
-
 /*===== QUALIFICATION =====*/
 .qualification__container {
   row-gap: 2.5rem;
