@@ -438,12 +438,128 @@ font-size: 1.3rem;
 }
 
 .line {
-  border-radius: 2px;
+  /* border-radius: 2px; */
   color: var(--first-color-light);
   margin-bottom: var(--mb-4);
   border: 2px solid;
-  width: 100%;
+  width: 60%;
 }
+
+.wb__hero-parallax .wb__hero-title {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .wb__hero-parallax .wb__hero-title .block {
+    width: 0%;
+    height: inherit;
+    background: var(--first-color-light);
+    position: absolute;
+    animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
+    display: flex;
+    height: 50px;
+  }
+
+  .wb__hero-parallax h2 {
+    color: var(--first-color-light);
+    font-size: 4rem;
+    -webkit-animation: mainFadeIn 2s forwards;
+    -o-animation: mainFadeIn 2s forwards;
+    animation: mainFadeIn 2s forwards;
+    animation-delay: 1.6s;
+    opacity: 0;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+  }
+
+  .wb__hero-parallax .wb__hero-sub-title {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .wb__hero-parallax .wb__hero-sub-title .block {
+    width: 0%;
+    height: inherit;
+    color: var(--first-color-light);
+    position: absolute;
+    animation: secBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
+    animation-delay: 2s;
+    display: flex;
+    height: 30px;
+  }
+
+  .wb__hero-parallax .wb__hero-sub-title p {
+    animation: secFadeIn 2s forwards;
+    animation-delay: 2s;
+    opacity: 0;
+
+  }
+
+  @keyframes mainBlock {
+    0% {
+      width: 0%;
+      left: 0;
+
+    }
+
+    50% {
+      width: 100%;
+      left: 0;
+
+    }
+
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+
+  @keyframes secBlock {
+    0% {
+      width: 0%;
+      left: 0;
+
+    }
+
+    50% {
+      width: 100%;
+      left: 0;
+
+    }
+
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+
+  @keyframes mainFadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes secFadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0.5;
+    }
+  }
 
 /*===== QUALIFICATION =====*/
 .qualification__container {
