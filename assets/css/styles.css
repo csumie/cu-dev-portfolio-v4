@@ -1,7 +1,9 @@
 /*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -13,8 +15,8 @@
   --first-color-grey: #7B6F71;
   --first-color-lighten: #FBF9F9;
   /*===== Font and typography =====*/
-  --body-font: 'Poppins', sans-serif;
-  --biggest-font-size: 5rem;
+  --body-font: 'Bebas Neue', sans-serif;
+  --biggest-font-size: 4.5rem;
   --h1-font-size: 4rem;
   --h2-font-size: 3rem;
   --h3-font-size: 2.5rem;
@@ -71,8 +73,12 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, ul, p {
+h1, h2, h3 {
   margin: 0;
+}
+
+ul, p, span {
+  font-family: 'Poppins';
 }
 
 h2, h3 {
@@ -288,12 +294,15 @@ font-size: 1.3rem;
 
 .home__name {
   font-size: var(--biggest-font-size);
-  line-height: 65px;
+  font-family: var(--body-font);
+  line-height: 40px;
+  padding-top: 30px;
+  letter-spacing: 1px;
 }
 
 .home__greeting, .home__profession {
   display: block;
-  font-weight: var(--font-bold);
+  font-weight: var(--font-medium);
 }
 
 .home__greeting {
@@ -856,14 +865,14 @@ font-size: 1.3rem;
  }
 }
 
-@media screen and (min-height: 400px) {
+@media screen and (max-height: 400px) {
 .home__name {
   font-size: 2.5rem;
   line-height: 65px;
  }
 }
 
-@media screen and (min-height: 280px) {
+@media screen and (max-height: 280px) {
 .home__name {
   line-height: 45px;
  }
