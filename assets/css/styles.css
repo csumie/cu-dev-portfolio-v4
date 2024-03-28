@@ -438,14 +438,13 @@ font-size: 1.3rem;
 }
 
 .line {
-  /* border-radius: 2px; */
   color: var(--first-color-light);
   margin-bottom: var(--mb-4);
   border: 2px solid;
   width: 60%;
 }
 
-.wb__hero-parallax .wb__hero-title {
+.about__hero-parallax .about__hero-title {
     width: 100%;
     position: relative;
     display: flex;
@@ -453,7 +452,7 @@ font-size: 1.3rem;
 
   }
 
-  .wb__hero-parallax .wb__hero-title .block {
+  .about__hero-parallax .about__hero-title .block {
     width: 0%;
     height: inherit;
     background: var(--first-color-light);
@@ -463,7 +462,7 @@ font-size: 1.3rem;
     height: 50px;
   }
 
-  .wb__hero-parallax h2 {
+  .about__hero-parallax h2 {
     color: var(--first-color-light);
     font-size: 4rem;
     -webkit-animation: mainFadeIn 2s forwards;
@@ -476,7 +475,7 @@ font-size: 1.3rem;
     position: relative;
   }
 
-  .wb__hero-parallax .wb__hero-sub-title {
+  .about__hero-parallax .about__hero-sub-title {
     width: 100%;
     position: relative;
     display: flex;
@@ -484,7 +483,7 @@ font-size: 1.3rem;
 
   }
 
-  .wb__hero-parallax .wb__hero-sub-title .block {
+  .about__hero-parallax .about__hero-sub-title .block {
     width: 0%;
     height: inherit;
     color: var(--first-color-light);
@@ -495,7 +494,7 @@ font-size: 1.3rem;
     height: 30px;
   }
 
-  .wb__hero-parallax .wb__hero-sub-title p {
+  .about__hero-parallax .about__hero-sub-title p {
     animation: secFadeIn 2s forwards;
     animation-delay: 2s;
     opacity: 0;
