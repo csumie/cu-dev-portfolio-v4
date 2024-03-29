@@ -930,6 +930,10 @@ font-size: 1.3rem;
   }
 }
 
+.social-placement {
+  text-align: right;
+}
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 576px) {
