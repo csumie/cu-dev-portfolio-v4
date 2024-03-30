@@ -15,6 +15,7 @@
   --first-color-grey: #7B6F71;
   --first-color-lighten: #FBF9F9;
   --link-color: #333333;
+  --sub-link-color: #585858;
   /*===== Font and typography =====*/
   --body-font: 'Bebas Neue', sans-serif;
   --biggest-font-size: 4.5rem;
@@ -37,6 +38,7 @@
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
+  --mb-7:1.25rem;
   /*===== z index =====*/
   --z-normal: 1;
   --z-tootip: 10;
@@ -446,6 +448,14 @@ font-size: 1.3rem;
   width: 79%;
 }
 
+.line-two {
+  color: var(--first-color-light);
+  margin-bottom: var(--mb-4);
+  margin-left: var(--mb-2);
+  border: 1px solid;
+  width: 100%;
+}
+
 .about__hero-parallax .about__hero-title {
     width: 100%;
     position: relative;
@@ -851,9 +861,14 @@ font-size: 1.3rem;
   background-color: #fff;
 }
 
-.copyright-text {
+.copyright-text  {
   margin: 0;
   font-weight: 500;
+  color: var(--first-color-light);
+}
+
+.copyright-text a  {
+  color: var(--sub-link-color);
 }
 
 @media (max-width: 991px) {
@@ -874,8 +889,8 @@ font-size: 1.3rem;
 }
 
 .social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
+  padding-left: var(--mb-7);
+  margin-bottom: var(--mb-1);
   list-style: none;
 }
 
@@ -893,7 +908,7 @@ font-size: 1.3rem;
   width: 44px;
   height: 44px;
   text-align: center;
-  margin-right: 8px;
+  margin-right: var(--mb-1);
   border-radius: 100%;
   -webkit-transition: all .2s linear;
   -o-transition: all .2s linear;
