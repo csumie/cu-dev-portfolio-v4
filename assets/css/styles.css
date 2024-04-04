@@ -404,6 +404,13 @@ font-size: 1.3rem;
   border-radius: .5rem;
 }
 
+.about__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
 /*===== ABOUT-FADE ANIMATION =====*/
 
 .move {
@@ -571,6 +578,57 @@ font-size: 1.3rem;
       opacity: 0.5;
     }
   }
+
+  .iconRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
+  .affect {
+  font-size: 5vw;
+}
+
+.row-icons .affect {
+  color: var(--first-color-light);
+}
+
+.iconRow img {
+  position: relative;
+  opacity: 0;
+}
+
+$delayTiming: 1.22; /*timing between animations*/
+$delayNthChild: 0.050; /*timing between icons*/
+
+@for $i from 1 through 8{
+  /*second row animation - delays*/
+  .row-icons i:nth-child(#{$i}n){
+    animation-delay: #{$i * $delayNthChild + $delayTiming}s;
+  }
+}
+
+.row-icons img {
+  animation: animation2 0.6s cubic-bezier(.33, .53, .97, .49) forwards;
+}
+
+@keyframes animation2 {
+  0% {
+    top: -40px;
+    opacity: 0;
+  }
+
+  90% {
+    top: 10px;
+  }
+
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
 
 /*===== QUALIFICATION =====*/
 .qualification__container {
