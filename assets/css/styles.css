@@ -594,13 +594,13 @@ font-size: 1.3rem;
   color: var(--first-color-light);
 }
 
-.iconRow img {
+.iconRow i {
   position: relative;
   opacity: 0;
 }
 
-$delayTiming: 1.22; /*timing between animations*/
-$delayNthChild: 0.050; /*timing between icons*/
+$delayTiming: 1.55; /*timing between animations*/
+$delayNthChild: 0.075; /*timing between icons*/
 
 @for $i from 1 through 8{
   /*second row animation - delays*/
@@ -609,7 +609,7 @@ $delayNthChild: 0.050; /*timing between icons*/
   }
 }
 
-.row-icons img {
+.row-icons i {
   animation: animation2 0.6s cubic-bezier(.33, .53, .97, .49) forwards;
 }
 
