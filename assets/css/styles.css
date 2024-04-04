@@ -588,6 +588,7 @@ font-size: 1.3rem;
 
   .affect {
   font-size: 5vw;
+  margin: var(--mb-2);
 }
 
 .row-icons .affect {
@@ -599,10 +600,10 @@ font-size: 1.3rem;
   opacity: 0;
 }
 
-$delayTiming: 1.55; /*timing between animations*/
+$delayTiming: 2; /*timing between animations*/
 $delayNthChild: 0.075; /*timing between icons*/
 
-@for $i from 1 through 8{
+@for $i from 1 through 10{
   /*second row animation - delays*/
   .row-icons i:nth-child(#{$i}n){
     animation-delay: #{$i * $delayNthChild + $delayTiming}s;
