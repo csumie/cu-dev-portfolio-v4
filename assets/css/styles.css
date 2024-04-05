@@ -579,56 +579,57 @@ font-size: 1.3rem;
     }
   }
 
-  .iconRow {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 2rem 0;
-}
+  /*===== ICONS-FADE ANIMATION =====*/
 
-  .affect {
-  font-size: 5vw;
-  margin: var(--mb-2);
-}
+    .iconRow {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 2rem 0;
+    }
 
-.row-icons .affect {
-  color: var(--first-color-light);
-}
+    .affect {
+      font-size: 3vw;
+      margin: var(--mb-2);
+    }
 
-.iconRow i {
-  position: relative;
-  opacity: 0;
-}
+    .row-icons .affect {
+      color: var(--first-color-light);
+    }
 
-$delayTiming: 2; /*timing between animations*/
-$delayNthChild: 0.075; /*timing between icons*/
+    .iconRow i {
+      position: relative;
+      opacity: 0;
+    }
 
-@for $i from 1 through 10{
-  /*second row animation - delays*/
-  .row-icons i:nth-child(#{$i}n){
-    animation-delay: #{$i * $delayNthChild + $delayTiming}s;
-  }
-}
+    $delayTiming: 2; /*timing between animations*/
+    $delayNthChild: 0.075; /*timing between icons*/
 
-.row-icons i {
-  animation: animation2 0.6s cubic-bezier(.33, .53, .97, .49) forwards;
-}
+    @for $i from 1 through 10{
+      .row-icons i:nth-child(#{$i}n) {
+        animation-delay: #{$i * $delayNthChild + $delayTiming}s;
+      }
+    }
 
-@keyframes animation2 {
-  0% {
-    top: -40px;
-    opacity: 0;
-  }
+    .row-icons i {
+      animation: animation2 0.6s cubic-bezier(.33, .53, .97, .49) forwards;
+    }
 
-  90% {
-    top: 10px;
-  }
+    @keyframes animation2 {
+      0% {
+        top: -30px;
+        opacity: 0;
+      }
 
-  100% {
-    top: 0px;
-    opacity: 1;
-  }
-}
+      90% {
+        top: 10px;
+      }
+
+      100% {
+        top: 0px;
+        opacity: 1;
+      }
+    }
 
 
 /*===== QUALIFICATION =====*/
