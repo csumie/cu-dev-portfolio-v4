@@ -408,7 +408,6 @@ font-size: 1.3rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 2rem 0;
 }
 
 /*===== ABOUT-FADE ANIMATION =====*/
@@ -575,7 +574,7 @@ font-size: 1.3rem;
     }
 
     100% {
-      opacity: 0.5;
+      opacity: 10;
     }
   }
 
@@ -601,34 +600,21 @@ font-size: 1.3rem;
       opacity: 0;
     }
 
-    $delayTiming: 2; /*timing between animations*/
-    $delayNthChild: 0.075; /*timing between icons*/
-
-    @for $i from 1 through 10{
-      .row-icons i:nth-child(#{$i}n) {
-        animation-delay: #{$i * $delayNthChild + $delayTiming}s;
-      }
-    }
-
     .row-icons i {
-      animation: animation2 0.6s cubic-bezier(.33, .53, .97, .49) forwards;
+      animation:fadeInTwo 8s cubic-bezier(.74, .06, .4, .92) forwards;
     }
 
-    @keyframes animation2 {
+    @keyframes fadeInTwo {
       0% {
-        top: -30px;
         opacity: 0;
       }
 
-      90% {
-        top: 10px;
-      }
-
       100% {
-        top: 0px;
-        opacity: 1;
+        opacity: 10;
       }
     }
+
+
 
 
 /*===== QUALIFICATION =====*/
