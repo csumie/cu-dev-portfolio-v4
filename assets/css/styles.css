@@ -591,9 +591,16 @@ img {
   margin-bottom: var(--mb-4);
   margin-left: var(--mb-2);
   border: 1px solid;
-  width: 100%;
+  width: 70%;
 }
 
+.line-four {
+  color: var(--first-color-light);
+  margin-bottom: var(--mb-4);
+  margin-left: var(--mb-2);
+  border: 1px solid;
+  width: 100%;
+}
 /*===== ICONS-FADE ANIMATION =====*/
 
 .iconRow {
@@ -866,7 +873,7 @@ img {
 } */
 
 .contactAddy {
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   font-weight: var(--font-medium);
   color: #333;
   letter-spacing: 5px;
