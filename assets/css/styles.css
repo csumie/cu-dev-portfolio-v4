@@ -821,7 +821,7 @@ img {
 
 /*===== CONTACT =====*/
 
-.cognito a {
+/* .cognito a {
   display: none;
   pointer-events: none;
   text-decoration: none;
@@ -863,7 +863,46 @@ img {
 .cog-cognito hr {
   visibility: hidden !important;
   display: none;
+} */
+
+.contactAddy {
+  font-size: 4em;
+  font-weight: 500;
+  color: #CCC;
+  letter-spacing: 5px;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  text-align: center;
 }
+
+.contactAddy span {
+  transition: 1s;
+}
+
+.contactAddy:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.contactAddy:hover span:nth-child(1):after {
+  content: "'";
+}
+
+.contactAddy:hover span:nth-child(2) {
+  margin-left: 40px;
+}
+
+.contactAddy:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #255,
+    0 0 110px #255;
+}
+
 
 /*===== FOOTER =====*/
 
