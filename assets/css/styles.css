@@ -866,17 +866,26 @@ img {
 } */
 
 .contactAddy {
-  font-size: 4em;
-  font-weight: 500;
-  color: #CCC;
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-medium);
+  color: #333;
   letter-spacing: 5px;
   cursor: pointer;
-  margin: 0px;
+  margin-bottom: 20px;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins';
   text-align: center;
 }
+
+.contactAddy a {
+  color: #333;
+  letter-spacing: 5px;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
 
 .contactAddy span {
   transition: 1s;
