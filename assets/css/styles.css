@@ -806,7 +806,7 @@ img {
 }
 
 .portfolio__data {
-  padding: 1.5rem;
+  padding: .5rem;
 }
 
 .portfolio__subtitle {
@@ -818,6 +818,7 @@ img {
   /* font-size: var(--h3-font-size); */
   color: var(--first-color);
   margin: var(--mb-2) 0;
+
 }
 
 /* Active menu portfolio*/
