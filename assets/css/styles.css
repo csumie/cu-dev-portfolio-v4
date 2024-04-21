@@ -1152,7 +1152,10 @@ img {
   }
 
   .home__profession {
-    font-size: 2rem;
+    font-size: var(--font-profession);
+    font-weight: var(--font-light);
+    margin-bottom: var(--mb-3);
+    margin-left: .25rem;
   }
 
   .home__social {
