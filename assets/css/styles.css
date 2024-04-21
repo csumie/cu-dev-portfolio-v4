@@ -43,6 +43,10 @@
   --mb-5: 2.5rem;
   --mb-6: 3rem;
   --mb-7: 1.25rem;
+  --mb-8: 1.875rem;
+  --mb-9: .75rem;
+  --mb-10: .50rem;
+  --mb-11: .25rem;
   /* ===== z index ===== */
   --z-normal: 1;
   --z-tootip: 10;
@@ -314,14 +318,15 @@ img {
   font-size: var(--h1-font-size);
   font-family: var(--body-font);
   line-height: 40px;
-  padding-top: 30px;
+  margin-top: var(--mb-8);
+  margin-bottom:var(--mb-11);
   letter-spacing: 1px;
 }
 
 .home__greeting,
 .home__profession {
   display: block;
-  font-size:var();
+  font-size:var(--font-light);
   font-weight: var(--font-medium);
 }
 
@@ -581,7 +586,7 @@ img {
   margin-bottom: var(--mb-4);
   margin-left: var(--mb-2);
   border: 2px solid;
-  width: 79%;
+  width: 82%;
 }
 
 .line-two {
@@ -597,7 +602,7 @@ img {
   margin-bottom: var(--mb-4);
   margin-left: var(--mb-2);
   border: 1px solid;
-  width: 70%;
+  width: 75%;
 }
 
 .line-four {
@@ -691,7 +696,7 @@ img {
   height: inherit;
   background: var(--first-color-light);
   position: absolute;
-  animation: mainBlock 6s cubic-bezier(.74, .06, .4, .92) forwards;
+  animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
   display: flex;
   height: 50px;
 }
@@ -699,10 +704,10 @@ img {
 .portfolio__hero-parallax h2 {
   color: var(--first-color-light);
   font-size: 4rem;
-  -webkit-animation: mainFadeIn 6s forwards;
-  -o-animation: mainFadeIn 6s forwards;
-  animation: mainFadeIn 6s forwards;
-  animation-delay: 4s;
+  -webkit-animation: mainFadeIn 2s forwards;
+  -o-animation: mainFadeIn 2s forwards;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 1.6s;
   opacity: 0;
   display: flex;
   align-items: baseline;
@@ -721,8 +726,8 @@ img {
   height: inherit;
   color: var(--first-color-light);
   position: absolute;
-  animation: secBlock 6s cubic-bezier(.74, .06, .4, .92) forwards;
-  animation-delay: 6s;
+  animation: secBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
+  animation-delay: 2s;
   display: flex;
   height: 30px;
 }
@@ -1145,10 +1150,6 @@ img {
     height: 100vh;
     grid-template-rows: max-content .5fr;
     align-content: flex-end;
-  }
-
-  .home__greeting {
-    font-size: 1.25rem;
   }
 
   .home__profession {
