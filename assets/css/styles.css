@@ -1004,11 +1004,12 @@ img {
   margin: 0;
   font-weight: 500;
   color: var(--first-color-light);
+  line-height: 18px;
+  margin-top: 4px;
 }
 
 .copyright-text a {
   color: var(--sub-link-color);
-  line-height: 22px;;
 }
 
 @media (max-width: 991px) {
