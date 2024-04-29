@@ -1119,6 +1119,10 @@ img {
     padding-top: 6rem;
   }
 
+  .section-footer {
+    padding-top: 3rem;
+  }
+
   .section-title {
     margin-bottom: var(--mb-5);
     font-size: var(--h3-font-size);
