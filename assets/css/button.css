@@ -13,6 +13,7 @@
   text-align: center;
   overflow:hidden;
   cursor:pointer;
+  margin-bottom: 20px;
 }
 
 #head-btn a {
