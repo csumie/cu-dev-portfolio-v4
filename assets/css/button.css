@@ -1,9 +1,6 @@
-body {
-  background: #222;
-}
 
 #head-btn {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -16,6 +13,11 @@ body {
   text-align: center;
   overflow:hidden;
   cursor:pointer;
+}
+
+#head-btn a {
+  background-color: transparent;
+  color: #fff;
 }
 
 #head-io {
