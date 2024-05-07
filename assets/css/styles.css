@@ -842,95 +842,14 @@ img {
 
 /*===== CONTACT =====*/
 
-/* .cognito a {
-  display: none;
-  pointer-events: none;
-  text-decoration: none;
-  clip-path: inset(100%);
-  clip: rect(1px, 1px, 1px, 1px);
-  overflow: hidden;
 
-}
-
-.cognito .c-html * {
-  color: var(--first-color);
-  font-size: 24px;
-  line-height: 26px;
-  width: 100%;
-  animation: fadeIn 2s ease-in both;
-}
-
-.cognito .c-forms-form .c-forms-confirmation-message {
-  color: var(--first-color);
-}
-
-.c-forms-form {
-  overflow: visible;
-  line-height: 1.3em;
-  position: relative;
-  padding: 3%;
-}
-
-.cog-branding--minimal {
-  visibility: hidden !important;
-  display: none !important;
-}
-
-.cog-abuse ul {
-  visibility: hidden !important;
-  display: none;
-}
-
-.cog-cognito hr {
-  visibility: hidden !important;
-  display: none;
-} */
-
-.contactAddy {
-  font-size: var(--h2-font-size);
-  font-weight: var(--font-medium);
-  color: #333;
-  letter-spacing: 5px;
-  cursor: pointer;
-  margin-bottom: 40px;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins';
+.contactText {
+  font-size: 2rem;
+  font-weight: var(--font-light);
+  color: var(--first-color-light);
+  line-height: 27px;
+  font-family: var(--body-font);
   text-align: center;
-}
-
-.contactAddy a {
-  color: #333;
-  letter-spacing: 5px;
-  box-sizing: border-box;
-  font-family: 'Poppins';
-  text-align: center;
-}
-
-
-.contactAddy span {
-  transition: 1s;
-}
-
-.contactAddy:hover span:nth-child(1) {
-  margin-right: 10px;
-}
-
-.contactAddy:hover span:nth-child(1):after {
-  content: "'";
-}
-
-.contactAddy:hover span:nth-child(2) {
-  margin-left: 40px;
-}
-
-.contactAddy:hover span {
-  color: #fff;
-  text-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff,
-    0 0 80px #255,
-    0 0 110px #255;
 }
 
 
