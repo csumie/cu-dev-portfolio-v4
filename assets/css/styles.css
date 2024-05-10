@@ -95,14 +95,15 @@ h3 {
 }
 
 ul,
-p,
-span {
+p {
   font-family: 'Poppins';
 }
 
 h2,
-h3 {
+h3,
+span {
   font-weight: var(--font-semi-bold);
+  font-family: var(--body-font);
 }
 
 ul {
@@ -112,6 +113,7 @@ ul {
 
 a {
   text-decoration: none;
+  font-family: var(--body-font);
 }
 
 img {
@@ -603,7 +605,7 @@ img {
   margin-bottom: var(--mb-4);
   margin-left: var(--mb-2);
   border: 1px solid;
-  width: 75%;
+  width: 100%;
 }
 
 .line-four {
@@ -850,6 +852,7 @@ img {
   line-height: 27px;
   font-family: var(--body-font);
   text-align: center;
+  margin-top: -10px;
 }
 
 
