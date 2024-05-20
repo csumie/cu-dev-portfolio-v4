@@ -22,7 +22,7 @@
 	align-items: center;
 	flex-wrap: wrap;
 	z-index: 1;
-	width: 320px;
+	width: auto;
 	height: 500px;
 	padding: 40px 30px;
 	margin: 28px;
