@@ -54,7 +54,6 @@
 
 .glass-container .glassmorphic-card .imgBox i {
 	font-size: max(60px);
-	color: rgba(255,255,255, 0.1);
 }
 
 .glass-container .glassmorphic-card .contentBox {
@@ -78,17 +77,6 @@
     color: rgba(0,0,0,0.2);
 }
 
-/* .glass-container .glassmorphic-card .contentBox h3 {
-	font-size: 1.5em;
-	color: #fff;
-	z-index: 1;
-}
-
-.glass-container .glassmorphic-card .contentBox p {
-	font-size: 0.95em;
-	color: #fff;
-	font-weight: 300;
-} */
 
 .glass-container .glassmorphic-card .contentBox a {
 	position: relative;
@@ -109,9 +97,7 @@
 	z-index: 12;
 	margin: 20px auto 10px;
 	position: relative;
-	/* color: #fff; */
 }
 
 .glass-container p span {
-	/* font-weight: 700; */
 }

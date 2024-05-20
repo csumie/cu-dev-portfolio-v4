@@ -27,6 +27,7 @@
   --h3-font-size: 2.5rem;
   --h4-font-size: 1rem;
   --h5-font-size: 1.1em;
+  --h6-font-size: 1.152rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
@@ -414,8 +415,8 @@ img {
 }
 
 .about__description {
-  font-size: var(--h5-font-size);
-  font-weight: var(--font-light);
+  font-size: var(--h6-font-size);
+  font-weight: var(--font-medium);
   color: var(--first-color-light);
   line-height: 27px;
 }
@@ -672,11 +673,11 @@ img {
 .services__icon,
 .services__title {
   margin-bottom: var(--mb-2);
-  color: var(--first-color);
 }
 
 .services__icon {
   font-size: 3rem;
+  color: var(--first-color-light)!important;
 }
 
 .services__title {
