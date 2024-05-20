@@ -11,8 +11,8 @@
   --header-height: 3rem;
   /* ===== Colors ===== */
   --first-color: #090707;
-  --first-color-light: #FFFFFF;
-  --first-color-dark: #000103;
+  --first-color-light: #BBB5AF;
+  --first-color-dark: #010101;
   --text-color: #524748;
   --first-color-grey: #7B6F71;
   --first-color-lighten: #FBF9F9;
@@ -299,7 +299,7 @@ img {
 
 /*===== HOME =====*/
 .home {
-  background-color: #000;
+  background-color: var(--first-color-dark);
   overflow: hidden;
 }
 
@@ -312,8 +312,8 @@ img {
 }
 
 .home__data {
-  border-left: 4px solid var(--first-color-lighten);
-  color: var(--first-color-lighten);
+  border-left: 4px solid var(--first-color-light);
+  color: var(--first-color-light);
   padding-left: 1.5rem;
   z-index: var(--z-tootip);
 }
