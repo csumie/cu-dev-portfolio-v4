@@ -1,10 +1,6 @@
 /* ===== GOOGLE FONTS ===== */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
-@font-face {
-  font-family: 'Lato';
-  src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* ===== VARIABLES CSS ===== */
 :root {
@@ -20,6 +16,7 @@
   --sub-link-color: #585858;
   /* ===== Font and typography ===== */
   --body-font: 'Oswald', sans-serif;
+  --secondary-font: 'Lato', sans-serif;
   --biggest-font-size: 4.5rem;
   --regular-font-size: 1.3rem;
   --h1-font-size: 4rem;
@@ -99,7 +96,7 @@ h3 {
 
 ul,
 p {
-  font-family: 'Lato';
+  font-family: var(--secondary-font);
 }
 
 h2,
@@ -682,7 +679,7 @@ img {
 
 .services__title {
   font-size: var(--regular-font-size);
-  font-family: 'Lato';
+  font-family: var(--secondary-font);
   font-weight: var(--font-medium);
   color: var(--first-color-light);
   text-transform: uppercase;
