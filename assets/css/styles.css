@@ -102,8 +102,8 @@ p {
 h2,
 h3,
 span {
-  font-weight: var(--font-semi-bold);
-  font-family: var(--body-font);
+  font-weight: var(--font-medium);
+  font-family: var(--secondary-font);
 }
 
 ul {
@@ -834,8 +834,11 @@ img {
 
 .portfolio__title {
   font-size: var(--regular-font-size);
-  color: var(--first-color-light);
-  margin: var(--mb-2) 0;
+      color: var(--first-color-light);
+      margin: var(--mb-2) 0;
+      text-transform: uppercase;
+      line-height: 22px;
+  }
 }
 
 .active-portfolio {
