@@ -19,6 +19,7 @@
   --secondary-font: 'Lato', sans-serif;
   --biggest-font-size: 4.5rem;
   --regular-font-size: 1.3rem;
+  --secondary-font-size: 1.2rem;
   --h1-font-size: 4rem;
   --h2-font-size: 3rem;
   --h3-font-size: 2.5rem;
@@ -651,6 +652,9 @@ img {
   }
 }
 
+.bx {
+  color: var(--first-color-light);
+}
 /*===== SERVICES =====*/
 
 .services__data {
@@ -678,7 +682,7 @@ img {
 }
 
 .services__title {
-  font-size: var(--regular-font-size);
+  font-size: var(--secondary-font-size);
   font-family: var(--secondary-font);
   font-weight: var(--font-medium);
   color: var(--first-color-light);
@@ -687,6 +691,7 @@ img {
 
 .services__description {
   margin-bottom: var(--mb-4);
+  font-size: var(--small-font-size);
 }
 
 /*===== PORTFOLIO =====*/
@@ -833,11 +838,11 @@ img {
 }
 
 .portfolio__title {
-  font-size: var(--regular-font-size);
-      color: var(--first-color-light);
-      margin: var(--mb-2) 0;
-      text-transform: uppercase;
-      line-height: 22px;
+  font-size: var(--secondary-font-size);
+  color: var(--first-color-light);
+  margin: var(--mb-2) 0;
+  text-transform: uppercase;
+  line-height: 22px;
   }
 }
 
