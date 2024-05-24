@@ -27,6 +27,7 @@
   --h5-font-size: 1.1em;
   --h6-font-size: 1.152rem;
   --normal-font-size: .938rem;
+  --semi-normal-font-size: .938rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
   /* ===== Font weight ===== */
@@ -691,7 +692,7 @@ img {
 
 .services__description {
   margin-bottom: var(--mb-4);
-  font-size: var(--small-font-size);
+  font-size: var(--semi-normal-font-size);
 }
 
 /*===== PORTFOLIO =====*/
@@ -833,7 +834,7 @@ img {
 }
 
 .portfolio__subtitle {
-  font-size: var(--small-font-size);
+  font-size: var(--semi-normal-font-size);
   color: var(--first-color-light);
 }
 
