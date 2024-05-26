@@ -941,7 +941,7 @@ img {
   font-weight: 500;
   color: var(--first-color-light);
   line-height: 18px;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 
 .copyright-text a {
