@@ -933,7 +933,7 @@ img {
   margin-left: 6px;
   margin-right: 0;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: #564e50;
 }
 
 .copyright-text {
@@ -977,8 +977,8 @@ img {
 }
 
 .social-icons a {
-  background-color: #eceeef;
-  color: #000000;
+  background-color: #564e50;
+  color: var(--first-color-light);
   font-size: 16px;
   display: inline-block;
   line-height: 44px;
