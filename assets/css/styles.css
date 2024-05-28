@@ -701,7 +701,8 @@ img {
 }
 
 .frontend-container::before,
-.ecomm-container::before {
+.ecomm-container::before,
+.apps-libs-container::before {
   content: "";
   position: absolute;
   bottom: -0.2vw;
@@ -709,7 +710,8 @@ img {
 }
 
 .frontend-container::after,
-.ecomm-container::after {
+.ecomm-container::after,
+.apps-libs-container::before  {
   content: '';
   position: absolute;
   border-radius: 50%;
@@ -729,28 +731,6 @@ img {
 
 .fourth-column {
   animation-delay: 0.99s;
-}
-
-.apps-libs-container {
-  margin-top: 20px;
-  color: var(--first-color-light);
-  opacity: 0;
-}
-
-.apps-libs-container::before {
-  content: '';
-  position: absolute;
-  bottom: -0.2vw;
-  color: var(--first-color-light);
-}
-
-.apps-libs-container::after {
-  content: '';
-  position: absolute;
-  border-radius: 50%;
-  bottom: -0.65vw;
-  left: -0.48vw;
-  z-index: -1;
 }
 
 @media (max-width: 991px) {
