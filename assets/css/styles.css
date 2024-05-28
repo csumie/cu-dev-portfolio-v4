@@ -414,10 +414,15 @@ img {
 }
 
 .about__description {
+  align-self: center;
+  justify-self: center;
+  width: 60%;
+  /* opacity: 0; */
   font-size: var(--h6-font-size);
   font-weight: var(--font-medium);
   color: var(--first-color-light);
   line-height: 27px;
+  text-align: center;
 }
 
 .about__number {
@@ -546,6 +551,238 @@ img {
 
   100% {
     opacity: 10;
+  }
+}
+
+.animation-about-me {
+  align-self: end;
+}
+
+.sections-names {
+  font-family: var(--secondary-font);
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--first-color-light);
+  position: relative;
+}
+
+.animated-section {
+  right: 25%;
+  animation-name: section;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes section {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    right: 0%;
+  }
+}
+
+.subtitles {
+  font-family: var(--secondary-font);
+  font-weight: var(--font-light);
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--first-color-light);
+  font-size: var(--h6-font-size);
+  margin: 5%;
+}
+
+.animated-fadeIn-right {
+  position: relative;
+  left: 3%;
+  animation-name: fadeIn-right;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn-right {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  100% {
+    display: inherit;
+    opacity: 1;
+    left: 0%;
+  }
+}
+
+.animated-fadeIn-left {
+  position: relative;
+  right: 3%;
+  animation-name: fadeIn-left;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn-left {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  100% {
+    display: inherit;
+    opacity: 1;
+    right: 0%;
+  }
+}
+
+#about-me-section {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  grid-row-gap: 50px;
+  margin-bottom: 0 px;
+}
+
+#skills-information {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 20vh;
+}
+
+#infoDiv {
+  border-right-color: #BBB5AF;
+  border-right-style: dotted;
+}
+
+.skills-description {
+  align-self: center;
+  justify-self: center;
+  /* opacity: 0; */
+  font-size: var(--h6-font-size);
+  font-weight: var(--font-light);
+  color: var(--first-color-light);
+  width: auto;
+  line-height: 27px;
+  text-align: justify;
+  margin-top: 10%;
+  margin-right: 10%;
+}
+
+.ecommerce-icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.frontend-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.apps-libs-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.frontend-container .ecomm-container .apps-libs-container {
+  margin-top: 5%;
+  color: var(--first-color-light);
+  opacity: 0;
+}
+
+.frontend-container::before,
+.ecomm-container::before {
+  content: "";
+  position: absolute;
+  bottom: -0.2vw;
+  color: var(--first-color-light);
+}
+
+.frontend-container::after,
+.ecomm-container::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  bottom: -0.65vw;
+  left: -0.48vw;
+  z-index: -1;
+}
+
+
+.second-column {
+  animation-delay: 0.33s;
+}
+
+.third-column {
+  animation-delay: 0.66s;
+}
+
+.fourth-column {
+  animation-delay: 0.99s;
+}
+
+.apps-libs-container {
+  margin-top: 20px;
+  color: var(--first-color-light);
+  opacity: 0;
+}
+
+.apps-libs-container::before {
+  content: '';
+  position: absolute;
+  bottom: -0.2vw;
+  color: var(--first-color-light);
+}
+
+.apps-libs-container::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  bottom: -0.65vw;
+  left: -0.48vw;
+  z-index: -1;
+}
+
+@media (max-width: 991px) {
+  #skills-information {
+    grid-template-columns: 100%;
+    grid-template-rows: 48vh 44vh;
+  }
+  #infoDiv {
+    border-right-style: none;
+  }
+  .frontend-container .ecomm-container .apps-libs-container {
+    height: 11vw !important;
+    width: 11vw !important;
+  }
+  .frontend-container::before,
+  .ecomm-container::before,
+  .apps-libs-container::before {
+    height: 11vw !important;
+    width: 11vw !important;
+  }
+  .frontend-container::after,
+  .ecomm-container::after,
+  .apps-libs-container::after {
+    height: 12vw !important;
+    width: 12vw !important;
+  }
+
+  .subtitles {
+    font-size: 2.7vw;
+  }
+  p {
+    font-size: 1.1vw;
   }
 }
 
