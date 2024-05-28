@@ -636,7 +636,7 @@ img {
 }
 
 #about-me-section {
-  height: 100vh;
+  height: 80vh;
   display: grid;
   grid-template-rows: 10% 90%;
   grid-row-gap: 50px;
