@@ -673,7 +673,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
-  margin: 5% 0;
+  margin: 5% 0 0 5%;
 }
 
 .frontend-icons {
@@ -682,7 +682,7 @@ img {
   grid-row-gap: 10px;
   justify-items: center;
   align-items: center;
-  margin: 5% 0;
+  margin: 5% 0 0 5%;
 }
 
 .apps-libs-icons {
@@ -691,7 +691,7 @@ img {
   grid-row-gap: 10px;
   justify-items: center;
   align-items: center;
-  margin: 5% 0;
+  margin: 5% 0 0 5%;
 }
 
 .frontend-container .ecomm-container .apps-libs-container {
