@@ -302,6 +302,7 @@ img {
 .home {
   background-color: var(--first-color-dark);
   overflow: hidden;
+  margin-top: 10%;
 }
 
 .home__container {
@@ -317,6 +318,7 @@ img {
   color: var(--first-color-light);
   padding-left: 1.5rem;
   z-index: var(--z-tootip);
+  margin-bottom: 20%;
 }
 
 .home__name {
