@@ -345,6 +345,7 @@ img {
   font-size: var(--font-profession);
   font-weight: var(--font-light);
   margin-bottom: var(--mb-3);
+  text-transform: uppercase;
 }
 
 .home__img {
@@ -589,7 +590,7 @@ img {
 
 .subtitles {
   font-family: var(--secondary-font);
-  font-weight: var(--font-light);
+  font-weight: var(--font-regular);
   letter-spacing: 0.5px;
   text-align: center;
   color: var(--first-color-light);
