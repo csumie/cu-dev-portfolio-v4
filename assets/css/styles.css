@@ -1080,13 +1080,14 @@ img {
 
 
 .contactText {
-  font-size: 2rem;
+  font-size: var(--h3-font-size);
   font-weight: var(--font-light);
   color: var(--first-color-light);
   line-height: 27px;
   font-family: var(--body-font);
   text-align: center;
-  margin-top: -10px;
+  margin-top: 5%;
+  text-transform: uppercase;
 }
 
 
