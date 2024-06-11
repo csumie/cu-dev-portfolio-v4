@@ -395,6 +395,10 @@ img {
   border-right-style: dotted;
 }
 
+.aboutSkills {
+  margin: 0 5%;
+}
+
 .about__description {
   align-self: center;
   justify-self: center;
@@ -414,7 +418,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
-  margin: 5% 0 0 5%;
+  margin: 3% 0 0;
 }
 
 .frontend__icons {
@@ -423,7 +427,7 @@ img {
   grid-row-gap: 10px;
   justify-items: center;
   align-items: center;
-  margin: 5% 0 0 5%;
+  margin: 3% 0 0;
 }
 
 .apps__icons {
@@ -432,7 +436,7 @@ img {
   grid-row-gap: 10px;
   justify-items: center;
   align-items: center;
-  margin: 5% 0 0 5%;
+  margin: 3% 0 0;
 }
 
 .frontend__container .ecomm__container .apps__container {
@@ -480,7 +484,7 @@ img {
   text-align: center;
   color: var(--first-color-light);
   font-size: var(--h6-font-size);
-  margin: 5%;
+  margin: 5% 5% 0;
 }
 
 @media (max-width: 991px) {
@@ -539,7 +543,7 @@ img {
   position: relative;
   /* left: 3%; */
   animation-name: fadeIn-right;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
@@ -559,7 +563,7 @@ img {
   position: relative;
   /* right: 3%; */
   animation-name: fadeIn-left;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
@@ -576,7 +580,7 @@ img {
 }
 
 .move {
-  animation: move-in 2s ease-out;
+  animation: move-in 3.5s ease-out;
   --from-x: 0;
   --from-y: 0;
   --from-opacity: 1;
