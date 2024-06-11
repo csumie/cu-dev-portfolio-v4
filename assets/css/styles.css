@@ -618,30 +618,6 @@ img {
   color: var(--first-color-light);
   margin-bottom: var(--mb-4);
   margin-left: var(--mb-2);
-  border: 2px solid;
-  width: 82%;
-}
-
-.line-two {
-  color: var(--first-color-light);
-  margin-bottom: var(--mb-4);
-  margin-left: var(--mb-2);
-  border: 2px solid;
-  width: 87%;
-}
-
-.line-three {
-  color: var(--first-color-light);
-  margin-bottom: var(--mb-4);
-  margin-left: var(--mb-2);
-  border: 1px solid;
-  width: 100%;
-}
-
-.line-four {
-  color: var(--first-color-light);
-  margin-bottom: var(--mb-4);
-  margin-left: var(--mb-2);
   border: 1px solid;
   width: 100%;
 }
@@ -668,7 +644,7 @@ img {
 }
 
 .row-icons i {
-  animation: fadeInTwo 6s cubic-bezier(.74, .06, .4, .92) forwards;
+  animation: fadeInTwo 2s cubic-bezier(.74, .06, .4, .92) forwards;
 }
 
 @keyframes fadeInTwo {
