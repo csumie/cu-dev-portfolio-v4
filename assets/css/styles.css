@@ -393,10 +393,11 @@ img {
 .aboutInfo{
   border-right-color: #BBB5AF;
   border-right-style: dotted;
+  animation: fadeInTwo 2s cubic-bezier(.74, .06, .4, .92) forwards;
 }
 
 .aboutSkills {
-  margin: 0 5%;
+  margin: 5% 5% 0;
 }
 
 .about__description {
