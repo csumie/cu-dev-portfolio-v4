@@ -92,8 +92,8 @@ textarea:hover::focus:-ms-placeholder {
 
 #form {
   position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
+  width: 475px;
+  margin: 0px auto 100px auto;
 }
 
 input {
