@@ -830,9 +830,11 @@ img {
 }
 
 .portfolio__img {
-  width: 100%;
+  /* width: 100%; */
   transition: .4s;
   height: 125px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio__data {
