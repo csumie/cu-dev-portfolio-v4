@@ -101,3 +101,88 @@
 .glass-container p span {
 
 }
+
+/* Neomorphic Card */
+
+.neomorphic-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background: #010101;
+}
+
+.neomorphic-container .neomorphic-card {
+  width: auto;
+  height: 500px;
+  margin: 28px;
+  padding: 40px 30px;
+  background: #010101;
+  border-radius: 30px;
+  box-shadow: -2px -2px 15px rgba(187, 181, 175, 1),
+    2px 2px 15px rgba(187, 181, 175, 1);
+}
+
+.neomorphic-container .neomorphic-card:hover {
+  box-shadow: inset -6px -6px 10px rgba(187, 181, 175, 1),
+    inset 6px 6px 20px rgba(187, 181, 175, 1);
+}
+
+
+.neomorphic-container .neomorphic-card .neomorphicBox {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.neomorphic-container .neomorphic-card .neomorphicBox h3 {
+  color: #BBB5AF;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.neomorphic-container .neomorphic-card .neomorphicBox p {
+  color: #BBB5AF;
+  text-align: center;
+}
+
+.neomorphic-container .neomorphic-card .neomorphicBox a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 30px;
+  color: #BBB5AF;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: -4px -4px 15px rgba(187, 181, 175, 1),
+    4px 4px 15px rgba(187, 181, 175, 1);
+}
+
+.neomorphic-container .neomorphic-card .neomorphicBox a:hover {
+  box-shadow: inset-4px -4px 10px rgba(187, 181, 175, 1),
+    inset 4px 4px 10px rgba(187, 181, 175, 1);
+}
+
+.neomorphic-container .neomorphic-card .neomorphicBox a:hover span {
+  display: block;
+  transform: scale(0.98);
+}
+
+.neomorphic-container .neomorphic-card:hover .neomorphicBox {
+  transform: scale(0.98);
+}
+
+.neomorphic-container p {
+  z-index: 12;
+  margin: 20px auto 10px;
+  position: relative;
+  color: #BBB5AF;
+}
+
+.neomorphic-container p span {
+  font-weight: 700;
+}
