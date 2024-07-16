@@ -116,7 +116,7 @@
 
 .neomorphic-container .neomorphic-card {
   width: auto;
-  height: 500px;
+  height: auto;
   margin: 28px;
   padding: 40px 20px;
   background: #010101;
