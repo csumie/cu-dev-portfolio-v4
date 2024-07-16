@@ -846,6 +846,7 @@ img {
 .portfolio__subtitle {
   font-size: var(--semi-normal-font-size);
   color: var(--first-color-light);
+  text-transform: none;
 }
 
 .portfolio__title {
