@@ -23,7 +23,7 @@
 	flex-wrap: wrap;
 	z-index: 1;
 	width: auto;
-	height: auto;
+	height: 450px;
 	padding: 40px 20px;
 	margin: 28px;
 	box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
@@ -158,8 +158,8 @@
   color: #BBB5AF;
   font-size: 16px;
   text-decoration: none;
-  box-shadow: -4px -4px 15px rgba(187, 181, 175, 1),
-    4px 4px 15px rgba(187, 181, 175, 1);
+  box-shadow: -3px -3px 10px rgba(187, 181, 175, 1),
+    3px 3px 10px rgba(187, 181, 175, 1)
 }
 
 .neomorphic-container .neomorphic-card .neomorphicBox a:hover {
