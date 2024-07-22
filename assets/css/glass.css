@@ -99,7 +99,18 @@
 }
 
 .glass-container p span {
+}
 
+.card-1 {
+	margin: 40px 10px 40px 0px!important;
+}
+
+.card-2 {
+	margin: 40px 10px!important;
+}
+
+.card-3 {
+	margin: 40px 0px 40px 10px!important;
 }
 
 /* Neomorphic Card */
