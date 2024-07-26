@@ -151,6 +151,8 @@
 .neomorphic-container .neomorphic-card .neomorphicBox p {
   color: #BBB5AF;
   text-align: center;
+	padding: 0 5px;
+  text-align: justify;
 }
 
 .neomorphic-container .neomorphic-card .neomorphicBox a {
