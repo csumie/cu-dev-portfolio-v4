@@ -167,7 +167,7 @@
   display: inline-block;
   padding: 10px 20px;
   margin-top: 15px;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   color: #BBB5AF;
   font-size: 16px;
   text-decoration: none;
