@@ -131,9 +131,9 @@
   margin: 28px;
   padding: 40px 20px;
   background: #010101;
-  border-radius: 30px;
-  box-shadow: -2px -2px 7px rgba(187, 181, 175, 1),
-    2px 2px 7px rgba(187, 181, 175, 1);
+  /* border-radius: 30px; */
+  box-shadow: -2px -2px 5px rgba(187, 181, 175, 1),
+    2px 2px 5px rgba(187, 181, 175, 1);
 }
 
 .neomorphic-container .neomorphic-card:hover {
@@ -167,16 +167,16 @@
   display: inline-block;
   padding: 10px 20px;
   margin-top: 15px;
-  /* border-radius: 30px; */
+  border-radius: 30px;
   color: #BBB5AF;
   font-size: 16px;
   text-decoration: none;
-  box-shadow: -3px -3px 10px rgba(187, 181, 175, 1),
-    3px 3px 10px rgba(187, 181, 175, 1)
+  box-shadow: -2px -2px 5px rgba(187, 181, 175, 1),
+    2px 2px 5px rgba(187, 181, 175, 1)
 }
 
 .neomorphic-container .neomorphic-card .neomorphicBox a:hover {
-  box-shadow: inset-4px -4px 10px rgba(187, 181, 175, 1),
+  box-shadow: inset -4px -4px 10px rgba(187, 181, 175, 1),
     inset 4px 4px 10px rgba(187, 181, 175, 1);
 }
 
