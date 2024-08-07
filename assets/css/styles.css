@@ -976,6 +976,13 @@ img {
   color: var(--first-color-light);
 }
 
+.footer-gif {
+  display: block;
+  -webkit-user-select: none;
+  margin: auto;
+  background-color: hsla(9, 100%, 64%, 0);
+}
+
 /* For small devices */
 @media screen and (max-width: 320px) {
   .home__img img {
