@@ -1115,7 +1115,7 @@ img {
   }
 
   .section-footer {
-    padding-top: 8rem;
+    padding-top: 8rem 0;
   }
 
   .section-title {
