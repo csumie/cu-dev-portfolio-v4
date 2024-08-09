@@ -1,0 +1,338 @@
+body {
+  padding: 20px 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: white;
+  display: flex;
+  width: 80vw;
+  height: 450px;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.container .half {
+  width: 50%;
+  height: 100%;
+}
+
+.container .right {
+  background: #eaeae9;
+  overflow: hidden;
+  position: relative;
+}
+
+.container .right .slide {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.container .right .s1 {
+  background-image: url(assets/img/AMK.jpg); center/cover;
+  z-index: 20;
+}
+
+.container .right .s2 {
+  background: url(https://40.media.tumblr.com/d02e05044230057d15370c6ed3931bec/tumblr_nqi8l5jxwr1uzrl54o1_500.jpg) center/cover;
+}
+
+.container .right .s3 {
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/e0/42/c1/e042c17835ae71c25bbf2510d0b31bb5.jpg) center/cover;
+}
+
+.container .right .s4 {
+  background: url(https://static.tumblr.com/65162db388baaea011ad9b04912c0f58/ivguq93/wsGnlmsac/tumblr_static_91nsinx32eosw4kk8cg08s8o0_2048_v2.jpg) center/cover;
+}
+
+.container .right .s5 {
+  background: url(http://s8.favim.com/orig/150605/forest-green-mystery-nature-Favim.com-2793315.png) center/cover;
+}
+
+.container .right .s6 {
+  background: url(http://s8.favim.com/orig/150605/forest-green-mystery-nature-Favim.com-2793315.png) center/cover;
+}
+
+.container .left {
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+.container .left .menu {
+  cursor: pointer;
+  padding: 35px 0 0 0;
+}
+
+.container .left .menu img,
+.container .left .menu p {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container .left .menu img {
+  height: 20px;
+}
+
+.container .left .menu p {
+  font-size: 11px;
+  margin-top: 4px;
+  letter-spacing: 2px;
+}
+
+.container .left .flex {
+  display: flex;
+  height: 80%;
+  width: 100%;
+  align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .left .flex .cover {
+  background: white;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  z-index: 50;
+}
+
+.container .left .flex .desc {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  background: white;
+  margin-bottom: 40px;
+}
+
+.container .left .flex .desc h3,
+.container .left .flex .desc h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.container .left .flex .desc h3 {
+  font-weight: 600;
+}
+
+.container .left .flex .desc h1,
+.container .left .flex .desc p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container .left .flex .desc h1 {
+  font-weight: 900;
+  background: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+.container .left .flex .desc p {
+  font-size: 12px;
+  margin: 40px 0 0;
+  line-height: 20px;
+}
+
+.container .left .flex .desc .button {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1711px) {
+.container .left .flex .desc {
+    margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1668px) {
+  .container .left .flex .desc h4 {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+.container .left .flex .desc h1 {
+  font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1575px) {
+    .container .left .flex .desc {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+  .container .left .flex {
+    height: 75%;
+}
+}
+
+@media screen and (max-width: 1478px) {
+    .container .left .flex {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 1454px) {
+    .container .left .flex {
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 1414px) {
+    .container .left .flex {
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 1356px) {
+    .container .left .flex {
+        height: 85%;
+    }
+}
+
+@media screen and (max-width: 1266px) {
+    .container .left .flex {
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 1237px) {
+    .container .left .flex .desc h4 {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    container .left .flex .desc h1 {
+       letter-spacing: 10px;
+   }
+  .container .left .flex .desc h4 {
+       padding-top: 20px;
+   }
+}
+
+  @media screen and (max-width: 1138px) {
+        .container .left .flex .desc {
+        margin-top: 0px;
+    }
+      .container .left .flex .desc p {
+        margin: 30px 0 0;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+  .container .left {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+     }
+  }
+
+@media screen and (max-width: 1093px) {
+    .container .left .flex .desc {
+        margin-top: -10px;
+    }
+}
+
+
+@media screen and (max-width: 1060px) {
+    .container .half {
+        height: 80%;
+    }
+}
+
+  @media screen and (max-width: 1040px) {
+    .container .left .flex .desc {
+        margin-top: -20px;
+    }
+    .container .left .flex .desc p {
+        margin: 20px 0 0;
+    }
+  }
+
+@media screen and (max-width: 1017px) {
+    .container .left .flex .desc p {
+        margin: 10px 0 0;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .container .half {
+        height: 100%;
+    }
+}
+
+  @media screen and (max-width: 977px) {
+    .container .left .flex .desc h1 {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+        .container .left .flex .desc h4 {
+        padding-top: 22px;
+    }
+        .container .left {
+        padding: 20px;
+    }
+}
+
+
+  @media screen and (max-width: 977px) {
+     .container .left .flex .desc p {
+          margin: 20px 0;
+    }
+    .container .left .flex .desc h3 {
+        padding-top: 10px;
+    }
+    .container .left .flex .desc h1 {
+       padding-top: 0px;
+    }
+}
+
+  @media screen and (max-width: 977px) {
+    .container .left .menu {
+       padding: 0px;
+     }
+  }
+
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column-reverse;
+    height: 600px;
+  }
+
+  .container .half {
+    width: 100%;
+  }
+
+  .container .left .flex {
+    justify-content: flex-start;
+    height: 80%;
+  }
+
+  .container .left .flex .desc {
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  .container .left .flex .cover {
+    display: none;
+  }
+
+  .container .right {
+    height: 30%;
+  }
+}
