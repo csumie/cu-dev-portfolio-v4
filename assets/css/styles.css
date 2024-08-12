@@ -1334,3 +1334,22 @@ img {
     margin-bottom: 60%;
   }
 }
+
+@media screen and (max-width: 1040px) {
+.subtitles {
+    font-size: var(--regular-font-size);
+  }
+  .bd-container {
+    display: flex;
+  }
+}
+
+/* @media screen and (max-width: 1040px) {
+.bd-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+  }
+} */
