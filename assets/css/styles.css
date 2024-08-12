@@ -1292,19 +1292,19 @@ img {
 }
 
 /*=== ABOUT SECTION QUERIES ===*/
-@media screen and (max-height: 1500px) {
+@media screen and (max-width: 1500px) {
 .subtitles {
     margin: 5% 5% 5%;
    }
 }
 
-@media screen and (max-height: 1300px) {
+@media screen and (max-width: 1300px) {
   .aboutSkills {
       margin: 5% 0% 0;
   }
 }
 
-@media screen and (max-height: 1111px) {
+@media screen and (max-width: 1111px) {
 .about__container {
     display: flex;
     height: 20vh;
@@ -1313,17 +1313,24 @@ img {
     justify-items: center;
     align-items: center;
    }
+ }
+
+@media screen and (max-width: 1111px) {
 .about__description {
     margin: 0 5%;
    }
 
 .aboutSkills {
+    margin: 5% 0% 0;
     width: 100%;
    }
 }
 
-@media screen and (max-height: 1111px) {
+@media screen and (max-width: 1111px) {
 .affect {
     font-size: 8vw;
    }
+   .about-me__section {
+    margin-bottom: 60%;
+  }
 }
