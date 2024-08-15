@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-.container {
+.port__container {
   background: white;
   position: fixed;
   display: flex;
@@ -13,18 +13,18 @@
   position: relative;
 }
 
-.container .half {
+.port__container .half {
   width: 100%;
   height: 100%;
 }
 
-.container .right {
+.port__container .right {
   background: #eaeae9;
   overflow: hidden;
   position: relative;
 }
 
-.container .right .slide {
+.port__container .right .slide {
   height: 100%;
   width: 100%;
   top: 0;
@@ -32,68 +32,68 @@
   position: absolute;
 }
 
-.container .right .s1 {
+.port__container .right .s1 {
   background: url(https://40.media.tumblr.com/d02e05044230057d15370c6ed3931bec/tumblr_nqi8l5jxwr1uzrl54o1_500.jpg) center/cover;
   z-index: 20;
 }
 
-.container .right .s2 {
+.port__container .right .s2 {
   background: url(https://40.media.tumblr.com/d02e05044230057d15370c6ed3931bec/tumblr_nqi8l5jxwr1uzrl54o1_500.jpg) center/cover;
 }
 
-.container .right .s3 {
+.port__container .right .s3 {
   background: url(https://s-media-cache-ak0.pinimg.com/736x/e0/42/c1/e042c17835ae71c25bbf2510d0b31bb5.jpg) center/cover;
 }
 
-.container .right .s4 {
+.port__container .right .s4 {
   background: url(https://static.tumblr.com/65162db388baaea011ad9b04912c0f58/ivguq93/wsGnlmsac/tumblr_static_91nsinx32eosw4kk8cg08s8o0_2048_v2.jpg) center/cover;
 }
 
-.container .right .s5 {
+.port__container .right .s5 {
   background: url(http://s8.favim.com/orig/150605/forest-green-mystery-nature-Favim.com-2793315.png) center/cover;
 }
 
-.container .right .s6 {
+.port__container .right .s6 {
   background: url(http://s8.favim.com/orig/150605/forest-green-mystery-nature-Favim.com-2793315.png) center/cover;
 }
 
-.container .left {
+.port__container .left {
   padding-right: 50px;
   padding-left: 30px;
 }
 
-.container .left .menu {
+.port__container .left .menu {
   cursor: pointer;
   padding: 35px 0 0 0;
 }
 
-.container .left .menu img,
-.container .left .menu p {
+.port__container .left .menu img,
+.port__container .left .menu p {
   display: inline-block;
   vertical-align: top;
 }
 
-.container .left .menu img {
-  height: 16px;
-  margin-top: 1px;
+.port__container .left .menu img {
+  height: 15px;
+  margin-top: 1.7px;
 }
 
-.container .left .menu p {
+.port__container .left .menu p {
   font-size: 11px;
   margin-top: 4px;
   letter-spacing: 2px;
 }
 
-.container .left .flex {
+.port__container .left .flex {
   display: flex;
-  height: 80%;
+  height: 77%;
   width: 100%;
   align-items: flex-end;
   position: relative;
   overflow: hidden;
 }
 
-.container .left .flex .cover {
+.port__container .left .flex .cover {
   background: white;
   top: 0;
   width: 100%;
@@ -102,7 +102,7 @@
   z-index: 50;
 }
 
-.container .left .flex .desc {
+.port__container .left .flex .desc {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -110,26 +110,8 @@
   margin-bottom: 40px;
 }
 
-.container .left .flex .desc p ,
-.container .left .flex .desc h3,
-.container .left .flex .desc h4 {
-  font-family: var(--secondary-font);
-  font-weight: 400;
-}
 
-.container .left .flex .desc h4 {
-  font-size: var(--normal-font-size);
-}
-
-.container .left .flex .desc h3 {
-  font-weight: 600;
-}
-
-.container .left .flex .desc h1,{
-  font-family: var(--body-font);
-}
-
-.container .left .flex .desc h1 {
+.port__container .left .flex .desc .portfolio__title {
   font-weight: 900;
   background: white;
   font-size: 50px;
@@ -137,77 +119,76 @@
   letter-spacing: 4px;
 }
 
-.container .left .flex .desc p {
+.port__container .left .flex .desc p {
   font-size: var(--font-portfolio);
   margin: 40px 0 0;
   line-height: 20px;
 }
 
-.container .left .flex .desc .button {
-  cursor: pointer;
-  text-decoration: underline;
-}
 
 @media screen and (max-width: 1711px) {
-.container .left .flex .desc {
+.port__container .left .flex .desc {
     margin-bottom: 20px;
     }
 }
 
 @media screen and (max-width: 1668px) {
-  .container .left .flex .desc h4 {
+  .port__container .left .flex .desc h4 {
         margin-bottom: 0px;
     }
 }
 
 @media screen and (max-width: 1650px) {
-.container .left .flex .desc h1 {
+.port__container .left .flex .desc h1 {
   font-size: 40px;
   }
 }
 
 @media screen and (max-width: 1575px) {
-    .container .left .flex .desc {
+    .port__container .left .flex .desc {
         margin-top: 0;
         margin-bottom: 0;
     }
-  .container .left .flex {
+  .port__container .left .flex {
     height: 75%;
-}
+   }
+   .port__container .left .flex .desc p {
+    margin: 30px 0;
+   }
 }
 
 @media screen and (max-width: 1478px) {
-    .container .left .flex {
+    .port__container .left .flex {
         height: 70%;
     }
 }
 
 @media screen and (max-width: 1454px) {
-    .container .left .flex {
-        height: 65%;
+    .port__container .left .flex {
+        height: 70%;
     }
 }
 
 @media screen and (max-width: 1414px) {
-    .container .left .flex {
+    .port__container .left .flex {
         height: 80%;
     }
 }
 
 @media screen and (max-width: 1356px) {
-    .container .left .flex {
+    .port__container .left .flex {
         height: 85%;
     }
 }
 
 @media screen and (max-width: 1266px) {
-    .container .left .flex {
+    .port__container .left .flex {
         height: 90%;
     }
 }
 
 @media screen and (max-width: 1237px) {
-    .container .left .flex .desc h4 {
+    .port__container .left .flex .desc h4 {
         padding-top: 60px;
     }
 }
@@ -216,22 +197,22 @@
     container .left .flex .desc h1 {
        letter-spacing: 10px;
    }
-  .container .left .flex .desc h4 {
+  .port__container .left .flex .desc h4 {
        padding-top: 20px;
    }
 }
 
   @media screen and (max-width: 1138px) {
-        .container .left .flex .desc {
+        .port__container .left .flex .desc {
         margin-top: 0px;
     }
-      .container .left .flex .desc p {
+      .port__container .left .flex .desc p {
         margin: 30px 0 0;
     }
   }
 
   @media screen and (max-width: 1100px) {
-  .container .left {
+  .port__container .left {
     padding-right: 30px;
     padding-left: 30px;
     text-align: justify;
@@ -239,97 +220,97 @@
   }
 
 @media screen and (max-width: 1093px) {
-    .container .left .flex .desc {
+    .port__container .left .flex .desc {
         margin-top: -10px;
     }
 }
 
 
 @media screen and (max-width: 1060px) {
-    .container .half {
+    .port__container .half {
         height: 80%;
     }
 }
 
   @media screen and (max-width: 1040px) {
-    .container .left .flex .desc {
+    .port__container .left .flex .desc {
         margin-top: -20px;
     }
-    .container .left .flex .desc p {
+    .port__container .left .flex .desc p {
         margin: 20px 0 0;
     }
   }
 
 @media screen and (max-width: 1017px) {
-    .container .left .flex .desc p {
+    .port__container .left .flex .desc p {
         margin: 10px 0 0;
     }
 }
 
 @media screen and (max-width: 1060px) {
-    .container .half {
+    .port__container .half {
         height: 100%;
     }
 }
 
   @media screen and (max-width: 977px) {
-    .container .left .flex .desc h1 {
+    .port__container .left .flex .desc h1 {
         font-size: 35px;
         letter-spacing: 5px;
     }
-        .container .left .flex .desc h4 {
+        .port__container .left .flex .desc h4 {
         padding-top: 22px;
     }
-        .container .left {
+        .port__container .left {
         padding: 20px;
     }
 }
 
 
   @media screen and (max-width: 977px) {
-     .container .left .flex .desc p {
+     .port__container .left .flex .desc p {
           margin: 20px 0;
     }
-    .container .left .flex .desc h3 {
+    .port__container .left .flex .desc h3 {
         padding-top: 10px;
     }
-    .container .left .flex .desc h1 {
+    .port__container .left .flex .desc h1 {
        padding-top: 0px;
     }
 }
 
   @media screen and (max-width: 977px) {
-    .container .left .menu {
+    .port__container .left .menu {
        padding: 0px;
      }
   }
 
 
 @media screen and (max-width: 800px) {
-  .container {
+  .port__container {
     flex-direction: column-reverse;
     height: 600px;
   }
 
-  .container .half {
+  .port__container .half {
     width: 100%;
   }
 
-  .container .left .flex {
+  .port__container .left .flex {
     justify-content: flex-start;
     height: 80%;
   }
 
-  .container .left .flex .desc {
+  .port__container .left .flex .desc {
     height: 100%;
     margin-bottom: 0;
   }
 
-  .container .left .flex .cover {
+  .port__container .left .flex .cover {
     display: none;
   }
 
-  .container .right {
+  .port__container .right {
     height: 30%;
   }
 }
@@ -338,7 +319,7 @@
 
 /*===== PORTFOLIO =====*/
 
-.portfolio__hero-parallax .portfolio__hero-title {
+/* .portfolio__hero-parallax .portfolio__hero-title {
   width: 100%;
   position: relative;
   display: flex;
@@ -438,7 +419,7 @@
   100% {
     opacity: 10;
   }
-}
+} */
 
 .portfolio__nav {
   text-align: center;
@@ -479,17 +460,42 @@
 
 .portfolio__desc {
   font-size: var(--semi-normal-font-size);
+  font-weight: var(--font-light);
   color: var(--first-color-dark);
-  text-transform: none;
 }
 
 .portfolio__title {
+  font-family: var(--body-font);
+  font-size: var(--regular-font-size);
+  color: var(--first-color-dark);
+  text-transform: uppercase;
+  line-height: 44px;
+}
+
+.portfolio__subtitle {
   font-size: var(--secondary-font-size);
   color: var(--first-color-dark);
   text-transform: uppercase;
   line-height: 22px;
-  }
 }
+
+.portfolio__button a{
+    cursor: pointer;
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    letter-spacing: 0.4px;
+    font-weight: var(--font-medium);
+    border: 1px solid #010101;
+    padding: 5px 30px;
+    font-size: var(--cta-font-size);
+    color: var(--first-color-dark);
+}
+
+.portfolio__button a:hover {
+    background-color: var(--first-color-dark);
+    color: var(--first-color-light);
+}
+
 
 .active-portfolio {
   color: var(--first-color-lighten);
