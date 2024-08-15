@@ -701,7 +701,7 @@ img {
 }
 
 /*===== PORTFOLIO =====*/
-
+/*
 .portfolio__hero-parallax .portfolio__hero-title {
   width: 100%;
   position: relative;
@@ -843,14 +843,13 @@ img {
 
 .portfolio__subtitle {
   font-size: var(--semi-normal-font-size);
-  color: var(--first-color-light);
+  color: var(--first-color-dark);
   text-transform: none;
 }
 
 .portfolio__title {
   font-size: var(--secondary-font-size);
-  color: var(--first-color-light);
-  margin: var(--mb-2);
+  color: var(--first-color-dark);
   text-transform: uppercase;
   line-height: 22px;
   }
@@ -859,7 +858,7 @@ img {
 .active-portfolio {
   color: var(--first-color-lighten);
   /* font-weight: var(--font-semi-bold); */
-}
+} */
 
 
 /*===== CONTACT =====*/
@@ -1146,7 +1145,7 @@ img {
   }
 
   .section-title {
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-6);
     font-size: var(--h3-font-size);
     font-family: var(--body-font);
   }
