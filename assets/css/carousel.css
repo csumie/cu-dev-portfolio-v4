@@ -169,24 +169,6 @@
     }
 }
 
-@media screen and (max-width: 1414px) {
-    .port__container .left .flex {
-        height: 80%;
-    }
-}
-
-@media screen and (max-width: 1356px) {
-    .port__container .left .flex {
-        height: 85%;
-    }
-}
-
-@media screen and (max-width: 1266px) {
-    .port__container .left .flex {
-        height: 90%;
-    }
-}
-
 @media screen and (max-width: 1237px) {
     .port__container .left .flex .desc h4 {
         padding-top: 60px;
@@ -194,7 +176,7 @@
 }
 
 @media screen and (max-width: 1230px) {
-    container .left .flex .desc h1 {
+    .container .left .flex .desc h1 {
        letter-spacing: 10px;
    }
   .port__container .left .flex .desc h4 {
@@ -203,11 +185,8 @@
 }
 
   @media screen and (max-width: 1138px) {
-        .port__container .left .flex .desc {
+  .port__container .left .flex .desc {
         margin-top: 0px;
-    }
-      .port__container .left .flex .desc p {
-        margin: 30px 0 0;
     }
   }
 
@@ -216,6 +195,11 @@
     padding-right: 30px;
     padding-left: 30px;
     text-align: justify;
+     }
+
+  .port__container .left .flex .desc  .portfolio__title  {
+       font-size: 35px;
+       letter-spacing: 1px;
      }
   }
 
@@ -232,13 +216,20 @@
     }
 }
 
+@media screen and (max-width: 1040px) {
+    .port__container .half {
+        height: 55%;
+    }
+}
+
   @media screen and (max-width: 1040px) {
     .port__container .left .flex .desc {
         margin-top: -20px;
     }
-    .port__container .left .flex .desc p {
-        margin: 20px 0 0;
+    .port__container .half {
+        height: 55%;
     }
+
   }
 
 @media screen and (max-width: 1017px) {
