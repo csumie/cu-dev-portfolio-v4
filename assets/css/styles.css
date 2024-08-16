@@ -1358,9 +1358,9 @@ img {
 .subtitles {
     font-size: var(--regular-font-size);
   }
-  .bd-container {
+  /* .bd-container {
     display: flex;
-  }
+  } */
 }
 
 /* @media screen and (max-width: 1040px) {
