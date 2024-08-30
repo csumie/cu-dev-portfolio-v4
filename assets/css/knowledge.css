@@ -243,7 +243,7 @@ a {
 
 .about-horizontal-timeline .about__content {
   position: relative;
-  width: 50%;
+  width: auto;
   height: auto;
   margin: 70px auto 20px;
   -webkit-transition: height 0.4s;
@@ -313,7 +313,7 @@ a {
 
 
 .event-title {
-  padding: 20px 0;
+  padding: 20px 20px 40px;
   font-family: var(--body-font);
 }
 
@@ -331,6 +331,8 @@ a {
   font-size: 19px;
   color: #BBB5AF;
   padding-top: 10px;
+  text-align: justify;
+  margin-top: 20px;
 }
 
 .about-horizontal-timeline .about__content em,
@@ -441,6 +443,8 @@ a {
     transform: translateX(0%);
   }
 }
+
+
 
 .about__intro {
   width: 80%;
