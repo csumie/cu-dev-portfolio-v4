@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/jpg" href="assets/img/csu-logo-2024.png" />
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -16,7 +16,7 @@
 
   <body>
     <!--===== SCROLL TOP =====-->
-    <a href="#" class="scrolltop" id="scroll-top">
+    <a href="#home" class="jump scrolltop" id="scroll-top">
       <i class='bx bx-chevron-up scrolltop__icon'></i>
     </a>
 
@@ -30,12 +30,29 @@
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list move fade-in">
-            <li class="nav__item"><a href="#home" class="nav__link active-link">HOME</a></li>
-            <li class="nav__item"><a href="#about" class="nav__link">ABOUT</a></li>
-            <li class="nav__item"><a href="#portfolio" class="nav__link">WORK</a></li>
-            <li class="nav__item"><a href="#contact" class="nav__link">CONTACT</a></li>
+            <li class="nav__item"><a href="#home" class="jump nav__link active-link">HOME</a></li>
+            <li class="nav__item"><a href="#about" class="jump nav__link">ABOUT</a></li>
+            <li class="nav__item"><a href="#skills" class="jump nav__link">WORK</a></li>
+            <li class="nav__item"><a href="#connect" class="jump nav__link">CONTACT</a></li>
           </ul>
         </div>
+
+        <script>
+          document.querySelectorAll('.jump').forEach(link => {
+            link.addEventListener('click', function(event) {
+              event.preventDefault();
+
+              const targetId = this.getAttribute('href').substring(1);
+              const target = document.getElementById(targetId);
+
+              if (target) {
+                target.scrollIntoView({
+                  behavior: 'smooth'
+                });
+              }
+            });
+          });
+        </script>
 
         <div class="nav__toggle">
           <i class='bx bx-menu ' id="nav-toggle"></i>
@@ -62,245 +79,262 @@
         </div>
       </section>
 
-      <!--===== ABOUT =====-->
+      <!--===== ABOUT ME - UPDATED =====-->
+      <section class="about-horizontal-timeline section bd-container" id="about">
+        <div class="about__intro">
+          <h3 class="section-title move fade-in">ABOUT ME</h3>
+          <p class="about__description move fade-in">
+            I am a versatile developer and designer specializing in crafting responsive websites that blend client visual aesthetics with a strong focus on accessibility.
+            <br>
+            <br>
+            With over 18 years of dedicated experience in eCommerce spanning multiple commerce management systems, my expertise lies in designing seamless and intuitive web experiences tailored to the distinct requirements of small businesses and Fortune 500 companies alike.
+            <br>
+            <br>
+            Throughout my career, I've cultivated my digital design skills through collaborations with professional teams and fellow creatives, gaining experience in optimizing photography, managing and building content and product pages, developing wireframes, and delivering innovative solutions in fast-paced environments.
+        </div>
 
-
-<section class="about-horizontal-timeline bd-container">
-  <div class="about__intro">
-    <h3 class="section-title move fade-in">ABOUT ME</h2>
-    <p class="about__description move fade-in">
-            Based in NYC area, I am a versatile developer and designer specializing in crafting responsive websites that blend client visual aesthetics with a focus on accessibility.
-          </div>
-
-          <div class="about__content move fade-in">
-            <ol>
-              <li class="selected" data-date="01/01/2000">
-                <h2 class="event-title">Digital Design</h2>
-                <div class="frontend__icons row-icons">
-                  <div class="frontend__container first-column">
-                    <!-- <i class="affect bx bxl-adobe"></i> -->
-                    <img class="affect" src="assets/img/adobelightroom-icon.png" style="width: 45px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container second-column">
-                    <img class="affect" src="assets/img/photoshop-icon.png" style="width: 40px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container third-column">
-                    <img class="affect" src="assets/img/dreamweaver-icon.png" style="width: 40px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container fourth-column">
-                    <img class="affect" src="assets/img/filezilla-icon.png" style="width: 40px; height: auto;">
-                  </div>
+        <div class="about__content move fade-in">
+          <ol>
+            <li class="selected" data-date="01/01/2000">
+              <h2 class="event-title">Digital Design</h2>
+              <div class="frontend__icons row-icons">
+                <div class="frontend__container first-column">
+                  <!-- <i class="affect bx bxl-adobe"></i> -->
+                  <img class="affect" src="assets/img/adobelightroom-icon.png" style="width: 45px; height: auto;">
                 </div>
 
-                <p>
-                  A Digital Designer in Ecommerce—responsible for creating visually compelling online content that enhances the shopping experience by designing digital assets such as product images, banners, promotional materials, and social media content, all while maintaining brand consistency. This involved close collaboration with studio photographers throughout pre-production and post-production to ensure that all visual content aligns with the brand's vision and marketing goals.
-                </p>
-              </li>
-
-              <li data-date="01/02/2000">
-                <h2 class="event-title">Email Marketing</h2>
-                <div class="frontend__icons row-icons">
-                  <div class="frontend__container first-column">
-                  </div>
-
-                  <div class="frontend__container second-column">
-                    <!-- <i class="affect bx bxl-css3"></i> -->
-                    <img class="affect" src="assets/img/dot-digital-icon.png" style="width: 40px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container third-column">
-                    <!-- <i class="affect bx bxl-sass"></i> -->
-                    <img class="affect" src="assets/img/adobe-xd-icon.png" style="width: 40px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container fourth-column">
-                  </div>
+                <div class="frontend__container second-column">
+                  <!-- <i class="affect bx bxl-css3"></i> -->
+                  <img class="affect" src="assets/img/photoshop-icon.png" style="width: 40px; height: auto;">
                 </div>
-                <p>
-                  Email Marketing in e-commerce—responsible for designing, building, and executing email campaigns that effectively engage customers, promote products, and drive sales. This role involves crafting visually appealing layouts, selecting appropriate imagery, and ensuring that emails are optimized for various devices and email clients, delivering a consistent and impactful experience across all platforms.
-                </p>
-              </li>
 
-              <li data-date="01/03/2000">
-                <h2 class="event-title">Ecommerce</h2>
-                <div class="frontend__icons row-icons">
-                  <div class="frontend__container first-column">
-                    <img class="affect" src="assets/img/salesforce-icon.png" style="width: 55px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container second-column">
-                    <img class="affect" src="assets/img/squarespace-icon.png" style="width: 55px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container third-column">
-                    <img class="affect" src="assets/img/magento-icon.png" style="width: 55px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container fourth-column">
-                    <img class="affect" src="assets/img/wordpress-icon.png" style="width: 55px; height: auto;">
-                  </div>
+                <div class="frontend__container third-column">
+                  <!-- <i class="affect bx bxl-sass"></i> -->
+                  <img class="affect" src="assets/img/dreamweaver-icon.png" style="width: 40px; height: auto;">
                 </div>
-                <p>
-                  Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-                </p>
-              </li>
 
-              <li data-date="01/04/2000">
-                <h2 class="event-title">Product Management</h2>
-                <div class="frontend__icons row-icons">
-                  <div class="frontend__container first-column">
-                  <img class="affect" src="assets/img/oracle-netsuite-icon.png" style="width: 60px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container second-column">
-                    <img class="affect" src="assets/img/excel-icon.png" style="width: 40px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container third-column">
-                    <img class="affect" src="assets/img/jsfiddle-icon.png" style="width: 50px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container fourth-column">
-                    <img class="affect" src="assets/img/akamai-icon.png" style="width: 60px; height: auto;">
-                  </div>
+                <div class="frontend__container fourth-column">
+                  <!-- <i class="affect bx bxl-javascript"></i> -->
+                  <img class="affect" src="assets/img/adobe-indesign-icon.png" style="width: 40px; height: auto;">
                 </div>
-                <p>
-                  Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-                </p>
-              </li>
-
-              <li data-date="01/05/2000">
-                <h2 class="event-title">SEO</h2>
-                <div class="frontend__icons row-icons">
-                  <div class="frontend__container first-column">
-                  </div>
-
-                  <div class="frontend__container second-column">
-                    <img class="affect" src="assets/img/google-analytics-icon.png" style="width: 45px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container third-column">
-                    <img class="affect" src="assets/img/googlesearchconsole-icon.png" style="width: 45px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container fourth-column">
-                  </div>
-                </div>
-                <p>
-                  Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-                </p>
-              </li>
-
-              <li data-date="01/06/2000">
-                <h2 class="event-title">Web Development</h2>
-                <div class="frontend__icons row-icons">
-                  <div class="frontend__container first-column">
-                    <i class="affect bx bxl-html5"></i>
-                  </div>
-
-                  <div class="frontend__container second-column">
-                    <i class="affect bx bxl-css3"></i>
-                  </div>
-
-                  <div class="frontend__container third-column">
-                    <i class="affect bx bxl-sass"></i>
-                  </div>
-
-                  <div class="frontend__container fourth-column">
-                    <i class="affect bx bxl-javascript"></i>
-                  </div>
-                </div>
-                <p>
-                  Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-                </p>
-              </li>
-
-              <li data-date="01/07/2000">
-                <h2 class="event-title">UX Design</h2>
-                <div class="frontend__icons row-icons">
-                  <div class="frontend__container first-column">
-                    <i class="affect bx bxl-figma" style="width: 35px; height: auto;"></i>
-                  </div>
-
-                  <div class="frontend__container second-column">
-                    <img class="affect" src="assets/img/adobe-xd-icon.png" style="width: 40px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container third-column">
-                    <img class="affect" src="assets/img/photoshop-icon.png" style="width: 40px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container fourth-column">
-                      <img class="affect" src="assets/img/canva-icon.png" style="width: 45px; height: auto;">
-                  </div>
-                </div>
-                <p>
-                  Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-                </p>
-              </li>
-
-              <li data-date="01/08/2000">
-                <h2 class="event-title">Agile Management</h2>
-                <div class="frontend__icons row-icons">
-                  <div class="frontend__container first-column">
-                  </div>
-
-                  <div class="frontend__container second-column">
-                    <i class="affect bx bxl-github" style="width: 45px;"></i>
-                  </div>
-
-                  <div class="frontend__container third-column">
-                    <img class="affect" src="assets/img/monday-icon.png" style="width: 50px; height: auto;">
-                  </div>
-
-                  <div class="frontend__container fourth-column">
-                  </div>
-                </div>
-                <p>
-                  Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-                </p>
-              </li>
-            </ol>
-          </div>
-          <div class="timeline move fade-in">
-            <div class="events-wrapper">
-              <div class="events">
-                <ol>
-                  <li><a href="#0" data-date="01/01/2000" class="selected">Digital Design</a></li>
-                  <li><a href="#0" data-date="01/02/2000">Email Marketing</a></li>
-                  <li><a href="#0" data-date="01/03/2000">Ecommerce</a></li>
-                  <li><a href="#0" data-date="01/04/2000">Product Management</a></li>
-                  <li><a href="#0" data-date="01/05/2000">SEO</a></li>
-                  <li><a href="#0" data-date="01/06/2000">Web Development</a></li>
-                  <li><a href="#0" data-date="01/07/2000">UX Design</a></li>
-                  <li><a href="#0" data-date="01/08/2000">Agile Management</a></li>
-                </ol>
-
-                <span class="filling-line move fade-in" aria-hidden="true"></span>
               </div>
-            </div>
 
-            <ul class="about-timeline-navigation">
-              <li><a href="#0" class="prev fa fa-angle-right fa-lg inactive "></a></li>
-              <li><a href="#0" class="next fa fa-angle-left fa-lg"></a></li>
-            </ul>
+              <p>
+                A Digital Designer in Ecommerce—responsible for creating visually compelling online content that enhances the shopping experience by designing digital assets such as product images, banners, promotional materials, and social media content, all while maintaining brand consistency. This involved close collaboration with studio photographers throughout pre-production and post-production to ensure that all visual content aligns with the brand's vision and marketing goals.
+              </p>
+            </li>
+
+            <li data-date="01/02/2000">
+              <h2 class="event-title">Email Marketing</h2>
+              <div class="frontend__icons row-icons">
+                <div class="frontend__container first-column">
+                </div>
+
+                <div class="frontend__container second-column">
+                  <!-- <i class="affect bx bxl-css3"></i> -->
+                  <img class="affect" src="assets/img/dot-digital-icon.png" style="width: 40px; height: auto;">
+                </div>
+
+                <div class="frontend__container third-column">
+                  <!-- <i class="affect bx bxl-sass"></i> -->
+                  <img class="affect" src="assets/img/adobe-xd-icon.png" style="width: 40px; height: auto;">
+                </div>
+
+                <div class="frontend__container fourth-column">
+                </div>
+              </div>
+              <p>
+                Email Marketing in e-commerce—responsible for designing, building, and executing email campaigns that effectively engage customers, promote products, and drive sales. This role involves crafting visually appealing layouts, selecting appropriate imagery, and ensuring that emails are optimized for various devices and email clients, delivering a consistent and impactful experience across all platforms.
+              </p>
+            </li>
+
+            <li data-date="01/03/2000">
+              <h2 class="event-title">Ecommerce</h2>
+              <div class="frontend__icons row-icons">
+                <div class="frontend__container first-column">
+                  <!-- <i class="affect bx bxl-adobe"></i> -->
+                  <img class="affect" src="assets/img/salesforce-icon.png" style="width: 55px; height: auto;">
+                </div>
+
+                <div class="frontend__container second-column">
+                  <!-- <i class="affect bx bxl-css3"></i> -->
+                  <img class="affect" src="assets/img/squarespace-icon.png" style="width: 55px; height: auto;">
+                </div>
+
+                <div class="frontend__container third-column">
+                  <!-- <i class="affect bx bxl-sass"></i> -->
+                  <img class="affect" src="assets/img/magento-icon.png" style="width: 55px; height: auto;">
+                </div>
+
+                <div class="frontend__container fourth-column">
+                  <!-- <i class="affect bx bxl-sass"></i> -->
+                  <img class="affect" src="assets/img/wordpress-icon.png" style="width: 55px; height: auto;">
+                </div>
+              </div>
+              <p>
+                Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="01/04/2000">
+              <h2 class="event-title">Product Management</h2>
+              <div class="frontend__icons row-icons">
+                <div class="frontend__container first-column">
+                  <img class="affect" src="assets/img/oracle-netsuite-icon.png" style="width: 60px; height: auto;">
+                </div>
+
+                <div class="frontend__container second-column">
+                  <!-- <i class="affect bx bxl-css3"></i> -->
+                  <img class="affect" src="assets/img/excel-icon.png" style="width: 40px; height: auto;">
+                </div>
+
+                <div class="frontend__container third-column">
+                  <!-- <i class="affect bx bxl-sass"></i> -->
+                  <img class="affect" src="assets/img/jsfiddle-icon.png" style="width: 50px; height: auto;">
+                </div>
+
+                <div class="frontend__container fourth-column">
+                  <img class="affect" src="assets/img/akamai-icon.png" style="width: 60px; height: auto;">
+                </div>
+              </div>
+              <p>
+                Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="01/05/2000">
+              <h2 class="event-title">SEO</h2>
+              <div class="frontend__icons row-icons">
+                <div class="frontend__container first-column">
+                  <!-- <i class="affect bx bxl-adobe"></i> -->
+                  <!-- <img class="affect" src="assets/img/adobe-indesign-icon.png" style="width: 40px; height: auto;"> -->
+                </div>
+
+                <div class="frontend__container second-column">
+                  <!-- <i class="affect bx bxl-css3"></i> -->
+                  <img class="affect" src="assets/img/google-analytics-icon.png" style="width: 45px; height: auto;">
+                </div>
+
+                <div class="frontend__container third-column">
+                  <!-- <i class="affect bx bxl-sass"></i> -->
+                  <img class="affect" src="assets/img/googlesearchconsole-icon.png" style="width: 45px; height: auto;">
+                </div>
+
+                <div class="frontend__container fourth-column">
+                  <!-- <i class="affect bx bxl-javascript"></i> -->
+                  <!-- <img class="affect" src="assets/img/filezilla-icon.png" style="width: 40px; height: auto;"> -->
+                </div>
+              </div>
+              <p>
+                Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="01/06/2000">
+              <h2 class="event-title">Web Development</h2>
+              <div class="frontend__icons row-icons">
+                <div class="frontend__container first-column">
+                  <i class="affect bx bxl-html5"></i>
+                </div>
+
+                <div class="frontend__container second-column">
+                  <i class="affect bx bxl-css3"></i>
+                </div>
+
+                <div class="frontend__container third-column">
+                  <i class="affect bx bxl-sass"></i>
+                </div>
+
+                <div class="frontend__container fourth-column">
+                  <i class="affect bx bxl-javascript"></i>
+                </div>
+              </div>
+              <p>
+                Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="01/07/2000">
+              <h2 class="event-title">UX Design</h2>
+              <div class="frontend__icons row-icons">
+                <div class="frontend__container first-column">
+                  <i class="affect bx bxl-figma" style="width: 35px; height: auto;"></i>
+                </div>
+
+                <div class="frontend__container second-column">
+                  <img class="affect" src="assets/img/adobe-xd-icon.png" style="width: 40px; height: auto;">
+                </div>
+
+                <div class="frontend__container third-column">
+                  <img class="affect" src="assets/img/photoshop-icon.png" style="width: 40px; height: auto;">
+                </div>
+
+                <div class="frontend__container fourth-column">
+                  <img class="affect" src="assets/img/canva-icon.png" style="width: 45px; height: auto;">
+                </div>
+              </div>
+              <p>
+                Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="01/08/2000">
+              <h2 class="event-title">Agile Management</h2>
+              <div class="frontend__icons row-icons">
+                <div class="frontend__container first-column">
+                </div>
+
+                <div class="frontend__container second-column">
+                  <i class="affect bx bxl-github" style="width: 45px;"></i>
+                </div>
+
+                <div class="frontend__container third-column">
+                  <img class="affect" src="assets/img/monday-icon.png" style="width: 50px; height: auto;">
+                </div>
+
+                <div class="frontend__container fourth-column">
+                </div>
+              </div>
+              <p>
+                Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+          </ol>
+        </div>
+        <div class="timeline move fade-in">
+          <div class="events-wrapper">
+            <div class="events">
+              <ol>
+                <li><a href="#0" data-date="01/01/2000" class="selected timeline-exp">Digital Design</a></li>
+                <li><a href="#0" data-date="01/02/2000" class="timeline-exp">Email Marketing</a></li>
+                <li><a href="#0" data-date="01/03/2000" class="timeline-exp">Ecommerce</a></li>
+                <li><a href="#0" data-date="01/04/2000" class="timeline-exp">Product Management</a></li>
+                <li><a href="#0" data-date="01/05/2000" class="timeline-exp">SEO</a></li>
+                <li><a href="#0" data-date="01/06/2000" class="timeline-exp">Web Development</a></li>
+                <li><a href="#0" data-date="01/07/2000" class="timeline-exp">UX Design</a></li>
+                <li><a href="#0" data-date="01/08/2000" class="timeline-exp">Agile Management</a></li>
+              </ol>
+
+              <span class="filling-line move fade-in" aria-hidden="true"></span>
+            </div>
           </div>
-          </div>
+
+          <ul class="about-timeline-navigation">
+            <li><a href="#0" class="prev fa fa-angle-right fa-lg inactive"></a></li>
+            <li><a href="#0" class="next fa fa-angle-left fa-lg"></a></li>
+          </ul>
+        </div>
+        </div>
       </section>
 
-      <!--===== PORTFOLIO PROJECTS  =====-->
-      <section class="portfolio bd-container section" id="portfolio">
-        <h3 class="section-title move fade-in">WORK</h3>
+      <!--===== PORTFOLIO =====-->
         <div class="port__container">
           <div class="left half">
             <div class="menu">
-              <button id="prevSlide" style="font-family: 'Mukta', sans-serif!important; border: none!important; background-color: transparent!important; text-transform: uppercase!important;font-size: .75rem!important;letter-spacing: 2px!important;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABNNJREFUaEPtmXXILlUQh59rt4iBhYmJoIKF2IJY2IIJihioWCjYrZigiAGKIIqF3aBig6L/qIiBWFhY2IWi+8DuZe759t09u+++9/LBHbhcPt5zZuY3M2dqZzDNacY015+5AOa0B4f0wMrATsB2wPaAf0f6HHiu+P154CngyyHAjwtgVeAUYBdgrY4KvQ88BlwNfNXx7szjfQEsBJwLnNFXcLj3B3ApcHEfXn0A7A7cWBMifeTHOx8BR5Qhls2rC4BFgJuBg0Zw15JPAPcVZz4AvgO+Kc8uBywDrAvsV4acXqyjG4DjchHkAlgaeBrYuIax8Ws43Qn8nil4UeBQ4AJAcCkpa68cfjkAtNRLxYPbpEbQecCVgNbvQwI5HTi75vIjwJ5tTHMA3AvsnzD6AdgNeLVNQObvpt6HgSWS8z7us5p4tAE4Frg+YfBeofjOwKeZyuUeMw0/A6ySXNgVeHIUkyYAKwAfAj7eir4omG0O+P8kSBCvAUsF5hpqnSJl/1UnsAnArYWVDw+XfikstBXw1iQ0Dzy3BF5JZPhOLu8CwAprXp4nXDK1meJmB5kczg+CvgXUaUqyGOWBa4ETAgPBrNlD84uAfxNlctgsVhpw2XD4yKJ43pJergNg2vwaWDIcPgC4J0dyOGN6PbX823wfLZrD6kTgmnDQt7FFDgBf/ePh4M9FJtISf+dILc9E5atrXUFYua3k0cgrpV1snQeuAE4Lymp5PZBLdcr3BfEisHVTJNQBeBbYIVyy97krU/sm5fuAMATlWdFlaQdcB8BBwxpQ0abAGxkAcpTvCsI5wwaxooeAvaMudQD+AeYNh1bLqLpdlO8CYgPg7aCLNWjDNgD/Jda24WrqMvsonwvC3uinoM+PSZWu3UqYbeYPlxYv0uGvGSGUHkkN0dZ31YmwHtgBVKRuC7Z5wE4z9iL2J/ZEXWkIAGsDzs4VOSTF4lbrgXeA9cOlbcp5YE4AsM12k1HRm8BGbR64v2jY9gmHakt4BpohPHBMOX9X4u4uPHJgG4BziibuwnDoUWCPDIUn8QacA5w9KrLAXtUGYNtkM+DD8U3kzrsV/3E9sDBg1lkgKDylJo3KDPYg8bEcBtzW0QvjAjgauCnI/KTQYfVUh1EA0tz+WdmPd8EwDgCtbwu/fBDo4H9JLoAVy+o7X7hwUhFKzgmzg85MlHWQUSdDahZqKi4OD27KKvINOO6ZyiZJmxXL4ReAuPhynHSsnEJNAHwDxl0c6h10fEhumidBjo02js4CFVm81kgq8swf28r78cB1iabvlqnNdzEkuXkwbaYP1e7TLrSW2gB4yV3nvslth2wXW68PhMDU7WIrjrGydqQ8uUlGDgBD6OURe1GLnoXlz55AbBR9sHXxrTccbxspB4AMXMA6qdmfp+SSy+8Et7cJC7/bZR5SzB1uLWK8V0f8iuMa/7c2nrkA5KO17mhoK8xSDxQDx4PAx8D3gO/EeUIl/bdeuWdtak0msl6Phji4jM06y7UZrOl3vykcVabQbD5dPBCZOim5Oc7+ENGgkZ4zlBzYO1NfAJUgv7hYoQ2JuAjIUcS5w4HdJFB9ycm5N8uZcQFEZk5PO5YrGQeRNMTsbUwEVlm/wPRWOgodEkBn6w1xYS6AIaw4Do9p74H/Aatq0zEFKynAAAAAAElFTkSuQmCC"/>
-              Previous</button>
-              <button id="nextSlide" style="font-family: 'Mukta', sans-serif!important; border: none!important; background-color: transparent!important; text-transform: uppercase!important; font-size: .75rem!important; letter-spacing: 2px!important;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABNtJREFUaEPtmWeoJUUQRs+as4gBE0aMCCqYELMgJsyCERQxoGJCwZxzAEUMoAiimDBnUDGDon9UxICYMGHCnBB0zjKz1PabO9Mzb+5bHmzBsuze7qr6uqur6quZwTSXGdPcf+YCmNM3OOQNrAzsBGwHbA/47yhfAM8Xv78APA18NQT4yQJYFTgF2AVYq6NDHwCPA9cAX3fcO2t5XwALAecCZ/Q1HPb9CVwKXNxHVx8AuwM31YRIH/txz8fAEWWIZevqAmAR4BbgoBHaPckngfuLNR8C3wPflmuXA5YB1gX2K0POW6yTG4HjchHkAlgaeAbYuEax8Ws43QX8kWl4UeBQ4AJAcKloa68cfTkAPKmXiwe3SY2h84CrAE+/jwjkdODsms2PAnu2Kc0BcB+wf6LoR2A34LU2A5m/m3ofAZZI1vu4z2rS0QbgWOCGRMH7heM7A59lOpe7zDT8LLBKsmFX4KlRSpoArAB8BPh4K/myULY54N/jEEG8DiwVlHtQ6xQp++86g00AbitO+fCw6dfihLYC3h6H50HnlsCriQ3fyRVdAFhhzcvzhE2mNlPcVIjJ4fxg6DtAnyYki1E3cB1wQlAgmDU7ev5fsr7tvcXli5UHuGz4zyOL4nlr6kOdUtPmN8CSYfEBwL1TCEBTJwLXBpu+jS1yAPjqnwgLfykykSfxzxQDsHJbyeMhr5R2sXU3cCVwWnDWk/cGuspkQqiy9RKwdVMk1AF4DtghbLL3ubur98AQAE4tK31l/vK0A64DINGwBlSyKfDmHAIgz7BBrORhYO/oSx2Af4F5w6LVelbdIW5gA+Cd4Is1aMM2AKlhG67cLjPqHgKAvdHPQelPSZWunUqYbeYPmxYHfmsIocvKjrJHlHFOCxOzHtgBVKJvC7bdgJ1m7EXsT+yJmqQPCDPd1S161wbkzpVIkmJxq72Bd4H1w6ZtSj7QdsJdQOQ4rz3bbCcZlbwFbNR2Aw8UDds+YVFtCR+BJgdErvOaOKbk35W5e4obObANgHF5YVj0GLBH2/GH35tAdHFelfIAuUclE/bXpdFtk8mAD8c30SUT1YHo6vzCgFlngQBgQk0a1SHag8THchhwe4dbcGkE0dV59x8N3Bxsflr4sHrqwygAEnXLeCWfl/14RwwzQfyQkW1SvZ6+Lfzy4QeJ/yW5AFYsq+98YcNJRSjJE6ZCzkyclcjokyE1mzSRDMmDk7JKfAPSPVPZOGWzYjj8IhAHX9JJaeUEaQLgGzDuIqmX6PiQnDSPQ6SNNo5ygUosXmskFXnWj20073jg+sTT98rU5rsYUpw8mDbTh2r3aRdaK20A3OSsc99ktyTbwdYbAyEwdTvYijRW1VLKk5ts5AAwhF4ZMRe16NnP/NUTiI2iD7Yuvr0N6W2j5ABQgQNYmZr9eSoOufxOcEebsfC7XeYhBe+4KIn3aolfcRzj/96mMxeAejytOxvaCrPUgwXheAj4pMz/vhP5hI/SP+uVc9am1mQs4/V4EAeXsRkzRdtB5fzuN4WjyhSas37mmi43EJXKlJwcZ3+IaPDImzOUJOydpS+AypBfXKzQhkQcBOQ4Iu+QsJsEqi85OftmWzNZAFGZ7GnHciQjEUlDzN7GRGCV9QtMb6ej0SEBdD69ITbMBTDEKU5Gx7S/gf8BZtrTMTaCWdwAAAAASUVORK5CYII="/>
-              Next</button>
+              <button id="prevSlide" style="font-family: 'Mukta', sans-serif!important; border: none!important; background-color: transparent!important; text-transform: uppercase!important;font-size: .75rem!important;letter-spacing: 2px!important;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABNNJREFUaEPtmXXILlUQh59rt4iBhYmJoIKF2IJY2IIJihioWCjYrZigiAGKIIqF3aBig6L/qIiBWFhY2IWi+8DuZe759t09u+++9/LBHbhcPt5zZuY3M2dqZzDNacY015+5AOa0B4f0wMrATsB2wPaAf0f6HHiu+P154CngyyHAjwtgVeAUYBdgrY4KvQ88BlwNfNXx7szjfQEsBJwLnNFXcLj3B3ApcHEfXn0A7A7cWBMifeTHOx8BR5Qhls2rC4BFgJuBg0Zw15JPAPcVZz4AvgO+Kc8uBywDrAvsV4acXqyjG4DjchHkAlgaeBrYuIax8Ws43Qn8nil4UeBQ4AJAcCkpa68cfjkAtNRLxYPbpEbQecCVgNbvQwI5HTi75vIjwJ5tTHMA3AvsnzD6AdgNeLVNQObvpt6HgSWS8z7us5p4tAE4Frg+YfBeofjOwKeZyuUeMw0/A6ySXNgVeHIUkyYAKwAfAj7eir4omG0O+P8kSBCvAUsF5hpqnSJl/1UnsAnArYWVDw+XfikstBXw1iQ0Dzy3BF5JZPhOLu8CwAprXp4nXDK1meJmB5kczg+CvgXUaUqyGOWBa4ETAgPBrNlD84uAfxNlctgsVhpw2XD4yKJ43pJergNg2vwaWDIcPgC4J0dyOGN6PbX823wfLZrD6kTgmnDQt7FFDgBf/ePh4M9FJtISf+dILc9E5atrXUFYua3k0cgrpV1snQeuAE4Lymp5PZBLdcr3BfEisHVTJNQBeBbYIVyy97krU/sm5fuAMATlWdFlaQdcB8BBwxpQ0abAGxkAcpTvCsI5wwaxooeAvaMudQD+AeYNh1bLqLpdlO8CYgPg7aCLNWjDNgD/Jda24WrqMvsonwvC3uinoM+PSZWu3UqYbeYPlxYv0uGvGSGUHkkN0dZ31YmwHtgBVKRuC7Z5wE4z9iL2J/ZEXWkIAGsDzs4VOSTF4lbrgXeA9cOlbcp5YE4AsM12k1HRm8BGbR64v2jY9gmHakt4BpohPHBMOX9X4u4uPHJgG4BziibuwnDoUWCPDIUn8QacA5w9KrLAXtUGYNtkM+DD8U3kzrsV/3E9sDBg1lkgKDylJo3KDPYg8bEcBtzW0QvjAjgauCnI/KTQYfVUh1EA0tz+WdmPd8EwDgCtbwu/fBDo4H9JLoAVy+o7X7hwUhFKzgmzg85MlHWQUSdDahZqKi4OD27KKvINOO6ZyiZJmxXL4ReAuPhynHSsnEJNAHwDxl0c6h10fEhumidBjo02js4CFVm81kgq8swf28r78cB1iabvlqnNdzEkuXkwbaYP1e7TLrSW2gB4yV3nvslth2wXW68PhMDU7WIrjrGydqQ8uUlGDgBD6OURe1GLnoXlz55AbBR9sHXxrTccbxspB4AMXMA6qdmfp+SSy+8Et7cJC7/bZR5SzB1uLWK8V0f8iuMa/7c2nrkA5KO17mhoK8xSDxQDx4PAx8D3gO/EeUIl/bdeuWdtak0msl6Phji4jM06y7UZrOl3vykcVabQbD5dPBCZOim5Oc7+ENGgkZ4zlBzYO1NfAJUgv7hYoQ2JuAjIUcS5w4HdJFB9ycm5N8uZcQFEZk5PO5YrGQeRNMTsbUwEVlm/wPRWOgodEkBn6w1xYS6AIaw4Do9p74H/Aatq0zEFKynAAAAAAElFTkSuQmCC" />
+                Previous</button>
+              <button id="nextSlide" style="font-family: 'Mukta', sans-serif!important; border: none!important; background-color: transparent!important; text-transform: uppercase!important; font-size: .75rem!important; letter-spacing: 2px!important;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABNtJREFUaEPtmWeoJUUQRs+as4gBE0aMCCqYELMgJsyCERQxoGJCwZxzAEUMoAiimDBnUDGDon9UxICYMGHCnBB0zjKz1PabO9Mzb+5bHmzBsuze7qr6uqur6quZwTSXGdPcf+YCmNM3OOQNrAzsBGwHbA/47yhfAM8Xv78APA18NQT4yQJYFTgF2AVYq6NDHwCPA9cAX3fcO2t5XwALAecCZ/Q1HPb9CVwKXNxHVx8AuwM31YRIH/txz8fAEWWIZevqAmAR4BbgoBHaPckngfuLNR8C3wPflmuXA5YB1gX2K0POW6yTG4HjchHkAlgaeAbYuEax8Ws43QX8kWl4UeBQ4AJAcKloa68cfTkAPKmXiwe3SY2h84CrAE+/jwjkdODsms2PAnu2Kc0BcB+wf6LoR2A34LU2A5m/m3ofAZZI1vu4z2rS0QbgWOCGRMH7heM7A59lOpe7zDT8LLBKsmFX4KlRSpoArAB8BPh4K/myULY54N/jEEG8DiwVlHtQ6xQp++86g00AbitO+fCw6dfihLYC3h6H50HnlsCriQ3fyRVdAFhhzcvzhE2mNlPcVIjJ4fxg6DtAnyYki1E3cB1wQlAgmDU7ev5fsr7tvcXli5UHuGz4zyOL4nlr6kOdUtPmN8CSYfEBwL1TCEBTJwLXBpu+jS1yAPjqnwgLfykykSfxzxQDsHJbyeMhr5R2sXU3cCVwWnDWk/cGuspkQqiy9RKwdVMk1AF4DtghbLL3ubur98AQAE4tK31l/vK0A64DINGwBlSyKfDmHAIgz7BBrORhYO/oSx2Af4F5w6LVelbdIW5gA+Cd4Is1aMM2AKlhG67cLjPqHgKAvdHPQelPSZWunUqYbeYPmxYHfmsIocvKjrJHlHFOCxOzHtgBVKJvC7bdgJ1m7EXsT+yJmqQPCDPd1S161wbkzpVIkmJxq72Bd4H1w6ZtSj7QdsJdQOQ4rz3bbCcZlbwFbNR2Aw8UDds+YVFtCR+BJgdErvOaOKbk35W5e4obObANgHF5YVj0GLBH2/GH35tAdHFelfIAuUclE/bXpdFtk8mAD8c30SUT1YHo6vzCgFlngQBgQk0a1SHag8THchhwe4dbcGkE0dV59x8N3Bxsflr4sHrqwygAEnXLeCWfl/14RwwzQfyQkW1SvZ6+Lfzy4QeJ/yW5AFYsq+98YcNJRSjJE6ZCzkyclcjokyE1mzSRDMmDk7JKfAPSPVPZOGWzYjj8IhAHX9JJaeUEaQLgGzDuIqmX6PiQnDSPQ6SNNo5ygUosXmskFXnWj20073jg+sTT98rU5rsYUpw8mDbTh2r3aRdaK20A3OSsc99ktyTbwdYbAyEwdTvYijRW1VLKk5ts5AAwhF4ZMRe16NnP/NUTiI2iD7Yuvr0N6W2j5ABQgQNYmZr9eSoOufxOcEebsfC7XeYhBe+4KIn3aolfcRzj/96mMxeAejytOxvaCrPUgwXheAj4pMz/vhP5hI/SP+uVc9am1mQs4/V4EAeXsRkzRdtB5fzuN4WjyhSas37mmi43EJXKlJwcZ3+IaPDImzOUJOydpS+AypBfXKzQhkQcBOQ4Iu+QsJsEqi85OftmWzNZAFGZ7GnHciQjEUlDzN7GRGCV9QtMb6ej0SEBdD69ITbMBTDEKU5Gx7S/gf8BZtrTMTaCWdwAAAAASUVORK5CYII=" />
+                Next</button>
             </div>
             <div class="flex">
               <div class="cover"></div>
@@ -309,7 +343,7 @@
                 <h1 class="portfolio__title">Ricoh Suave Photography</h1>
                 <p class="portfolio__desc">Client website built with HTML5, CSS3, and JavaScript. Designed mobile-first and responsive mockups and helped with ftp, hosting and email setup.</p>
                 <div class="portfolio__button">
-                <p><a href="https://www.ricohsuavephotography.com/" target="_blank" class="button button-link">VIEW SITE</a></p>
+                  <p><a href="https://www.ricohsuavephotography.com/" target="_blank" class="button button-link">VIEW SITE</a></p>
                 </div>
               </div>
               <div class="desc d2">
@@ -317,7 +351,7 @@
                 <h1 class="portfolio__title">Chino's Art</h1>
                 <p class="portfolio__desc">Client website built with HTML5, CSS3, and JavaScript. Designed mobile-first and responsive mockups and helped client with affordable hosting on Git Hub.</p>
                 <div class="portfolio__button">
-                <p><a href="https://csumie.github.io/AKM-Portfolio/" target="_blank" class="button button-link">VIEW SITE</a></p>
+                  <p><a href="https://csumie.github.io/AKM-Portfolio/" target="_blank" class="button button-link">VIEW SITE</a></p>
                 </div>
               </div>
               <div class="desc d3">
@@ -325,7 +359,7 @@
                 <h1 class="portfolio__title">Pawsome facts</h1>
                 <p class="portfolio__desc">Project website built using HTML5, CSS3, and JavaScript applying dark mode using light-colored text and other UI elements. Project currently hosted on Git Hub.</p>
                 <div class="portfolio__button">
-                <p><a href="https://csumie.github.io/pawesome-facts-responsive-layout/" target="_blank" class="button button-link">VIEW SITE</a></p>
+                  <p><a href="https://csumie.github.io/pawesome-facts-responsive-layout/" target="_blank" class="button button-link">VIEW SITE</a></p>
                 </div>
               </div>
               <div class="desc d4">
@@ -333,7 +367,7 @@
                 <h1 class="portfolio__title">Matty Carter + Ariel</h1>
                 <p class="portfolio__desc">Client website created on a collaborative effort, maintaining social presence and digital storefront in 2020.</p>
                 <div class="portfolio__button">
-                <p><a href="https://mattycarterandariel.com/" target="_blank" class="button button-link">VIEW SITE</a></p>
+                  <p><a href="https://mattycarterandariel.com/" target="_blank" class="button button-link">VIEW SITE</a></p>
                 </div>
               </div>
               <div class="desc d5">
@@ -341,7 +375,7 @@
                 <h1 class="portfolio__title">Flat Rock Brook</h1>
                 <p class="portfolio__desc">Client website created on a collaborative effort, maintaining social media and community presence in 2020.</p>
                 <div class="portfolio__button">
-                <p><a href="https://www.flatrockbrook.org/" target="_blank" class="button button-link">VIEW SITE</a></p>
+                  <p><a href="https://www.flatrockbrook.org/" target="_blank" class="button button-link">VIEW SITE</a></p>
                 </div>
               </div>
               <div class="desc d6">
@@ -349,7 +383,7 @@
                 <h1 class="portfolio__title">Houss Freya</h1>
                 <p class="portfolio__desc">Client website maintaining social presence and driving traffic to digital storefront and brick and mortar in 2020.</p>
                 <div class="portfolio__button">
-                <p><a href="https://www.houssfreya.com/" target="_blank" class="button button-link">VIEW SITE</a></p>
+                  <p><a href="https://www.houssfreya.com/" target="_blank" class="button button-link">VIEW SITE</a></p>
                 </div>
               </div>
             </div>
@@ -367,7 +401,7 @@
       </section>
 
       <!--===== CONTACT =====-->
-      <section class="contact bd-container section-footer" id="contact">
+      <section class="contact bd-container section-footer" id="connect">
         <h3 class="section-title move fade-in">LET'S CONNECT</h3>
         <div class="contact-card">
           <ul class="contact-icons">
@@ -377,8 +411,8 @@
             <li><a href="https://codepen.io/tag-n-code" class="codepen"><i class="bx bxl-codepen"></i></a></li>
           </ul>
         </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
     <!--===== FOOTER =====-->
     <footer class="footer">
@@ -395,12 +429,7 @@
       </div>
     </footer>
 
-
-
     <!--===== JS =====-->
-    <script src="assets/js/mixitup.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -408,4 +437,5 @@
     <script src="assets/js/carousel.js"></script>
     <script src="assets/js/knowledge.js"></script>
   </body>
+
 </html>
