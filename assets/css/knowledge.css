@@ -322,7 +322,6 @@ a {
   font-size: var(--secondary-font-size);
   color: var(--first-color-light);
   padding-top: 10px;
-  text-align: justify;
   margin-top: 20px;
 }
 
@@ -344,9 +343,26 @@ a {
     color: var(--first-color-light);
     line-height: 27px;
     text-align: center;
+    margin: 20px 20px 0;
+    text-align: justify;
    }
-}
 
+   .about-horizontal-timeline .about__content li {
+       padding: 0 6% 2vh;
+     }
+
+     ol {
+       padding: 0;
+     }
+
+     .about-horizontal-timeline .events {
+        left: 0%;
+     }
+
+     .about__description {
+         text-align: justify!important;
+     }
+}
 
 @-webkit-keyframes cd-enter-right {
   0% {
