@@ -108,7 +108,7 @@ a {
   z-index: 2;
   transform: translateX(-250%) !important;
   text-align: center;
-  font-size: 15px;
+  /* font-size: 15px; */
   color: #BBB5AF;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -343,7 +343,6 @@ a {
     font-weight: var(--font-light);
     color: var(--first-color-light);
     line-height: 27px;
-    text-align: center;
     margin: 20px 20px 0;
     text-align: justify;
    }
@@ -464,12 +463,12 @@ a {
 }
 
 .about__description {
-  font-size: var(--h4-font-size);
+  font-size: var(--secondary-font-size);
   font-weight: var(--font-light);
   color: var(--first-color-light);
   width: auto;
   line-height: 27px;
-  text-align: center;
+  text-align: justify;
   padding-bottom: 5%;
 }
 
