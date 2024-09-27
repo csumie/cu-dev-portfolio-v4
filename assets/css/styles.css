@@ -14,7 +14,7 @@
   --first-color-lighten: #FBF9F9;
   --link-color: #333333;
   --sub-link-color: #585858;
-  /* ===== Font and typography ===== */
+  /* ===== Font & Typography ===== */
   --body-font: 'Oswald', sans-serif;
   --secondary-font: 'Mukta', sans-serif;
   --h1-font-size: 4rem;
@@ -30,7 +30,7 @@
   --font-medium: 500;
   --font-semi-bold: 600;
   --font-bold: 700;
-  /* ===== Margenes ===== */
+  /* ===== Margins ===== */
   --mb-1: .5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -47,7 +47,6 @@
   --z-tootip: 10;
   --z-fixed: 100;
   /* ===== Extras ===== */
-  /* ===== Font Sizes ===== */
   --font-profession: 1.8rem;
   --normal-font-size: .938rem;
   --semi-normal-font-size: .938rem;
@@ -82,6 +81,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 
 body {
   margin: var(--header-height) 0 0 0;
@@ -281,7 +281,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: .5rem;
-  background: rgba(123, 111, 113, 0.7);
+  background-color: var(--first-color-light);
   border-radius: .5rem;
   z-index: var(--z-tootip);
   transition: .4s;
@@ -289,12 +289,12 @@ img {
 }
 
 .scrolltop:hover {
-  background-color: var(--first-color);
+  background-color: var(--first-color-grey);
 }
 
 .scrolltop__icon {
   font-size: 2rem;
-  color: var(--first-color-lighten);
+  color: var(--first-color-dark)!important;
 }
 
 .show-scroll {
@@ -544,17 +544,13 @@ img {
 }
 
 .about__description {
-  align-self: center;
-  justify-self: center;
-  /* opacity: 0; */
-  font-size: var(--h5-font-size);
+  font-size: var(--secondary-font-size);
   font-weight: var(--font-light);
   color: var(--first-color-light);
   width: auto;
   line-height: 27px;
   text-align: justify;
-  margin-top: 5%;
-  margin-right: 10%;
+  padding-bottom: 5%;
 }
 
 .ecommerce__icons{
@@ -1207,10 +1203,6 @@ img {
 
   .home__img img {
     width: 420px;
-  }
-
-  .about__description {
-    text-align: justify;
   }
 
   .about__img {
