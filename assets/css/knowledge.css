@@ -359,9 +359,9 @@ a {
         left: 0%;
      }
 
-     .about__description {
+     /* .about__description {
         text-align: justify!important;
-     }
+     } */
 
      .about-timeline-navigation a {
         height: 30px!important;
