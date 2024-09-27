@@ -246,6 +246,7 @@ a {
 .about-horizontal-timeline .about__content ol {
   padding-left; 0rem;
 }
+
 .about-horizontal-timeline .about__content li {
   position: absolute;
   z-index: 1;
