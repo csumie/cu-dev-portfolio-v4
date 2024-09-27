@@ -469,7 +469,6 @@ a {
   width: auto;
   line-height: 27px;
   text-align: justify;
-  padding-bottom: 5%;
 }
 
 @media screen and (max-width: 700px) {
