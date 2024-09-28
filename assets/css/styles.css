@@ -930,7 +930,7 @@ img {
 }
 
 .footer__data {
-  border-top: 4px solid var(--first-color-light);
+  border-top: 2px solid var(--first-color-light);
   color: var(--first-color-light);
   padding-left: 1.5rem;
   z-index: var(--z-tootip);
