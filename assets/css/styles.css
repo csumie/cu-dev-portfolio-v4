@@ -976,8 +976,9 @@ img {
   font-weight: 500;
   color: var(--first-color-light);
   line-height: 18px;
-  margin-top: 10px;
+  margin-top: 8px;
   text-align: left;
+  letter-spacing: 0.5px;
 }
 
 .footer__copy a {
