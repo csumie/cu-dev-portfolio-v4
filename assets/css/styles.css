@@ -70,6 +70,12 @@
   }
 }
 
+@media screen and (max-width: 549px) {
+  :root {
+    --h1-font-size: 3rem;
+  }
+}
+
 /*===== BASE =====*/
 *,
 ::before,
