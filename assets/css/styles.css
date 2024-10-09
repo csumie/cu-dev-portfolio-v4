@@ -75,7 +75,6 @@
     --h1-font-size: 3rem;
   }
 }
-
 /*===== BASE =====*/
 *,
 ::before,
@@ -113,8 +112,11 @@ h2,
 h3,
 span {
   font-weight: var(--font-medium);
-  font-family: var(--secondary-font);
   font-size: var(--standard-font-size);
+}
+
+span {
+  font-family: var(--secondary-font);
 }
 
 ul {
