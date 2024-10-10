@@ -506,3 +506,9 @@ a {
   transform: rotate(30%);
   color: #010101;
 }
+
+@media screen and (max-width: 768px) {
+.space {
+  margin-bottom: 10%;
+   }
+}
