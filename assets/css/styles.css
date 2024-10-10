@@ -981,13 +981,13 @@ img {
 }
 
 .footer__copy {
-  margin: 0;
-  font-weight: 500;
-  color: var(--first-color-light);
-  line-height: 18px;
-  margin-top: 7px;
-  text-align: left;
-  letter-spacing: 0.5px;
+ margin: 0;
+ font-weight: 500;
+ color: var(--first-color-light);
+ line-height: 15px;
+ margin-top: 10px;
+ text-align: left;
+ letter-spacing: 0.5px;
 }
 
 .footer__copy a {
@@ -1271,14 +1271,6 @@ img {
     width: 45px;
   }
 }
-
-/* @media screen and (max-height: 608px) {
-  .home__name {
-    padding: 5% 0;
-    font-size: 2.5rem;
-    line-height: 55px;
-  }
-} */
 
 @media screen and (min-height: 540px) {
   .home__img img {
