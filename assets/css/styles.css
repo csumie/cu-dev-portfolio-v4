@@ -706,7 +706,6 @@ img {
 }
 
 /*===== PORTFOLIO =====*/
-
 .portfolio__data {
   padding: .5rem;
 }
@@ -846,13 +845,13 @@ img {
 }
 
 .footer__copy {
- margin: 0;
- font-weight: 500;
- color: var(--first-color-light);
- line-height: 15px;
- margin-top: 10px;
- text-align: left;
- letter-spacing: 0.5px;
+  margin: 0;
+  font-weight: 500;
+  color: var(--first-color-light);
+  line-height: 15px;
+  margin-top: 10px;
+  text-align: left;
+  letter-spacing: 0.5px;
 }
 
 .footer__copy a {
@@ -1191,15 +1190,14 @@ img {
    }
  }
 
- @media screen and (max-width: 1111px) {
-   .about__intro {
-       width: auto!important;
-    }
-   .about__description {
-     margin: 0;
-    }
- }
-
+@media screen and (max-width: 1111px) {
+  .about__intro {
+      width: auto!important;
+   }
+  .about__description {
+    margin: 0;
+   }
+}
 
 @media screen and (max-width: 1111px) {
 .affect {
