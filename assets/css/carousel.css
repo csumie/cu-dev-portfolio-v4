@@ -44,8 +44,10 @@
 }
 
 .port__container .right .s3 {
-  background: url(https://s-media-cache-ak0.pinimg.com/736x/e0/42/c1/e042c17835ae71c25bbf2510d0b31bb5.jpg) center/cover;
+  background: url(../img/Pawesome.jpg) center/cover;
+  /* background: url(https://s-media-cache-ak0.pinimg.com/736x/e0/42/c1/e042c17835ae71c25bbf2510d0b31bb5.jpg) center/cover; */
 }
+
 
 .port__container .right .s4 {
   background: url(https://static.tumblr.com/65162db388baaea011ad9b04912c0f58/ivguq93/wsGnlmsac/tumblr_static_91nsinx32eosw4kk8cg08s8o0_2048_v2.jpg) center/cover;
