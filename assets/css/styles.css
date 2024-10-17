@@ -1219,3 +1219,53 @@ img {
     font-size: var(--regular-font-size);
   }
 }
+
+
+/*=== LOGO MEDIA QUERIES ===*/
+@media screen and (max-width: 1000px) {
+.nav__logo {
+    width: 7.25%;
+   }
+}
+
+@media screen and (max-width: 900px) {
+.nav__logo {
+    width: 7.75%;
+   }
+}
+
+@media screen and (max-width: 800px) {
+.nav__logo {
+    width: 8.25%;
+   }
+}
+
+@media screen and (max-width: 700px) {
+.nav__logo {
+    width: 8.75%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+.nav__logo {
+    width: 9.25%;
+   }
+}
+
+@media screen and (max-width: 500px) {
+.nav__logo {
+    width: 12%;
+   }
+}
+
+@media screen and (max-width: 400px) {
+.nav__logo {
+    width: 15%;
+   }
+}
+
+@media screen and (max-width: 300px) {
+.nav__logo {
+    width: 18%;
+   }
+}
