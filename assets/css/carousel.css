@@ -420,6 +420,22 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+   .portfolio__title {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 579px) {
+   .port__container .left .flex .desc p {
+     margin: 0 0 30px;
+   }
+   .portfolio__title {
+        margin-bottom: 30px;
+    }
+}
+
+
 .portfolio__subtitle {
   font-size: var(--secondary-font-size);
   color: var(--first-color-dark);
