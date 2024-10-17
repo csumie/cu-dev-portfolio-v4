@@ -1194,16 +1194,34 @@ img {
   }
 }
 
+@media screen and (max-height: 583px) {
+    .home__name {
+        line-height: 35px;
+    }
+}
+
 @media screen and (min-height: 540px) {
   .home__img img {
     width: 400px;
   }
 }
 
+@media screen and (max-height: 516px) {
+    .home__name {
+        line-height: 25px;
+    }
+}
+
 @media screen and (min-height: 448px) {
   .home__name {
     line-height: 50px;
   }
+}
+
+@media screen and (min-height: 447px) {
+  .home__profession {
+    line-height: 30px;
+   }
 }
 
 @media screen and (max-height: 280px) {
