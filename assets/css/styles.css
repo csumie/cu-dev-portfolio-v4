@@ -1182,6 +1182,12 @@ img {
   }
 }
 
+@media screen and (min-height: 767px) {
+  .home__data {
+    margin-bottom: 20%;
+  }
+}
+
 @media screen and (max-height: 767px) {
   .nav__logo img {
     width: 45px;
