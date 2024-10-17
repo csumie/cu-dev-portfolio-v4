@@ -724,6 +724,12 @@ img {
   }
 }
 
+@media screen and (max-width: 800px) {
+    .portfolio__title {
+        line-height: 25px;
+    }
+}
+
 .active-portfolio {
   color: var(--first-color-lighten);
   /* font-weight: var(--font-semi-bold); */
