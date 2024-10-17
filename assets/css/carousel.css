@@ -120,7 +120,7 @@
 }
 
 .port__container .left .flex .desc p {
-  font-size: var(--font-portfolio);
+  font-size: var(--font-profession);
   margin: 40px 0 0;
   line-height: 20px;
 }
