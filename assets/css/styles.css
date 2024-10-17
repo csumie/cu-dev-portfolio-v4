@@ -1182,7 +1182,7 @@ img {
   }
 }
 
-@media screen and (min-height: 767px) {
+@media screen and (max-height: 767px) {
   .home__data {
     margin-bottom: 20%;
   }
