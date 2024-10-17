@@ -106,6 +106,17 @@
   }
 }
 
+@media screen and (max-width: 332px) {
+  :root {
+    --font-profession: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 298px) {
+  :root {
+    --font-profession: 1.3rem;
+  }
+}
 
 
 /*===== BASE =====*/
