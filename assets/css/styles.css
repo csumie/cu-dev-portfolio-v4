@@ -520,11 +520,13 @@ img {
 }
 
 .home__profession {
+  font-family: var(--body-font);
   font-size: var(--font-profession);
   font-weight: var(--font-light);
   margin-bottom: var(--mb-3);
   text-transform: uppercase;
 }
+
 
 .home__img {
   position: absolute;
