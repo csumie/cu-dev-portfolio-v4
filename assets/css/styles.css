@@ -903,19 +903,20 @@ img {
 
 .footer__copy {
   margin: 0;
+  font-family: var(--secondary-font);
   font-size: var(--footer-font-size);
-  font-weight: 500;
-  color: var(--first-color-light);
+  font-weight: var(--font-light);
+  color: var(--first-color-dark);
   line-height: 15px;
   margin-top: 10%;
   text-align: left;
   letter-spacing: 0.5px;
 }
 
-.footer__copy a {
-  color: var(--sub-link-color);
+.footer__copy-name {
+  font-family: var(--body-font);
+  font-weight: var(--font-medium);
 }
-
 /* For small devices */
 @media screen and (max-width: 320px) {
   .home__img img {
