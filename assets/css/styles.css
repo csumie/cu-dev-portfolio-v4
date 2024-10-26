@@ -917,6 +917,7 @@ img {
   font-family: var(--body-font);
   font-weight: var(--font-medium);
 }
+
 /* For small devices */
 @media screen and (max-width: 320px) {
   .home__img img {
