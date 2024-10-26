@@ -885,6 +885,10 @@ img {
   display: inline-flex;
 }
 
+.footer__logo img {
+  margin-top: 10px;
+}
+
 .footer__link {
   font-size: 1.4rem;
   color: var(--first-color-light);
