@@ -848,7 +848,7 @@ img {
 
 /*===== FOOTER =====*/
 .footer {
-  background-color: var(--first-color-dark);
+  background-color: var(--first-color-light);
   color: var(--first-color-lighten);
   text-align: center;
 }
