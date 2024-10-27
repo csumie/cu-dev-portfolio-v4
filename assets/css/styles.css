@@ -904,11 +904,11 @@ img {
 .footer__copy {
   margin: 0;
   font-family: var(--body-font);
-  font-size: var(--footer-font-size);
+  font-size: var(--normal-font-size);
   font-weight: var(--font-light);
   color: var(--first-color-dark);
-  line-height: 18px;
-  margin-top: 12%;
+  line-height: 17px;
+  margin-top: 15%;
   text-align: left;
   letter-spacing: 0.5px;
 }
