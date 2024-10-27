@@ -903,12 +903,12 @@ img {
 
 .footer__copy {
   margin: 0;
-  font-family: var(--secondary-font);
+  font-family: var(--body-font);
   font-size: var(--footer-font-size);
   font-weight: var(--font-light);
   color: var(--first-color-dark);
-  line-height: 15px;
-  margin-top: 10%;
+  line-height: 18px;
+  margin-top: 12%;
   text-align: left;
   letter-spacing: 0.5px;
 }
