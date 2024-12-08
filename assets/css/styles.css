@@ -382,7 +382,7 @@ img {
   position: relative;
   /* left: 3%; */
   animation-name: fadeIn-right;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
 }
 
