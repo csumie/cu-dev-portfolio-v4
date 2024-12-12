@@ -42,6 +42,7 @@
   --mb-9: .75rem;
   --mb-10: .50rem;
   --mb-11: .25rem;
+  --mb-12: 0rem;
   /* ===== z index ===== */
   --z-normal: 1;
   --z-tootip: 10;
@@ -74,6 +75,7 @@
 @media screen and (max-width: 583px) {
   :root {
     --h1-font-size: 3.5rem;
+    --mb-12: 0rem;
   }
 }
 
@@ -1049,14 +1051,8 @@ img {
 
   @media screen and (max-height: 583px) {
     .home__name {
-        line-height: 30px;
+        margin-bottom: 0;
     }
-}
-
-  @media screen and (max-height: 549px) {
-  .home__name {
-      line-height: 25px;
-  }
 }
 
   @media screen and (min-height: 540px) {
