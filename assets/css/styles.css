@@ -364,8 +364,6 @@ img {
 .animated-section {
   right: 25%;
   animation-name: section;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
 }
 
 @keyframes section {
@@ -1051,20 +1049,20 @@ img {
 
   @media screen and (max-height: 583px) {
     .home__name {
-        line-height: 35px;
+        line-height: 30px;
     }
+}
+
+  @media screen and (max-height: 549px) {
+  .home__name {
+      line-height: 25px;
+  }
 }
 
   @media screen and (min-height: 540px) {
   .home__img img {
     width: 325px;
   }
-}
-
-  @media screen and (max-height: 516px) {
-    .home__name {
-        line-height: 25px;
-    }
 }
 
   @media screen and (min-height: 448px) {
