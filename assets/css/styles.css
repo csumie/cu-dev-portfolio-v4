@@ -85,12 +85,6 @@
   }
 }
 
-@media screen and (max-width: 549px) {
-  :root {
-    --h1-font-size: 3.25rem;
-  }
-}
-
 @media screen and (max-width: 516px) {
   :root {
     --h1-font-size: 3rem;
@@ -1051,8 +1045,9 @@ img {
 
   @media screen and (max-height: 583px) {
     .home__name {
-        margin-bottom: 0;
-    }
+      line-height: 25px;
+      margin-bottom: var(--mb-12);
+  }
 }
 
   @media screen and (min-height: 540px) {
