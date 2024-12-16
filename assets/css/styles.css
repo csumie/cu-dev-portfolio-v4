@@ -146,25 +146,31 @@
 
 @media screen and (max-width: 600px) {
   :root {
-    --logo-width-default: 5.75%;
+    --logo-width-default: 6%;
    }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   :root {
-    --logo-width-default: 6.25%;
+    --logo-width-default: 7%;
    }
 }
 
 @media screen and (max-width: 400px) {
   :root {
-    --logo-width-default: 15%;
+    --logo-width-default: 8%;
+   }
+}
+
+@media screen and (max-width: 350px) {
+  :root {
+    --logo-width-default: 9%;
    }
 }
 
 @media screen and (max-width: 300px) {
   :root {
-    --logo-width-default: 18%;
+    --logo-width-default: 12%;
    }
 }
 
