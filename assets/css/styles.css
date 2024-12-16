@@ -59,6 +59,7 @@
   --footer-font-size: 1.125rem;
   --standard-font-size: 1rem;
   --cta-font-size: 0.8rem;
+  --line-height-default: 2.5rem;
 }
 
 @media screen and (max-width: 617px) {
@@ -81,7 +82,13 @@
 
 @media screen and (max-width: 549px) {
   :root {
-    --h1-font-size: 3.25rem;
+    --h1-font-size: 3.45rem;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  :root {
+    --line-height-default: 3.125rem;
   }
 }
 
@@ -510,9 +517,9 @@ img {
 .home__name {
   font-size: var(--h1-font-size);
   font-family: var(--body-font);
-  line-height: 40px;
+  line-height: var(--line-height-default);
   margin-top: var(--mb-8);
-  margin-bottom:var(--mb-11);
+  /* margin-bottom:var(--mb-11); */
   letter-spacing: 1px;
 }
 
@@ -1016,15 +1023,15 @@ img {
   }
 }
 
-@media screen and (min-width: 540px) {
-.home__img img {
-  width: 325px;
-}
+@media screen and (max-width: 543px) {
+  .home__name {
+    line-height: 50px !important;
+  }
 }
 
-@media screen and (max-width: 448px) {
-  .home__name {
-    line-height: 50px;
+@media screen and (min-width: 540px) {
+  .home__img img {
+    width: 325px;
   }
 }
 
@@ -1057,7 +1064,7 @@ img {
   @media screen and (max-height: 767px) {
   .home__name {
     font-size: 3.7rem;
-    line-height: 65px;
+    /* line-height: 65px; */
   }
 }
 
