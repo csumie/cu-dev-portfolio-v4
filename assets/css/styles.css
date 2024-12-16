@@ -59,7 +59,9 @@
   --footer-font-size: 1.125rem;
   --standard-font-size: 1rem;
   --cta-font-size: 0.8rem;
+  /* ===== Defaults ===== */
   --line-height-default: 2.5rem;
+  --logo-width-default: 6.25%;
 }
 
 @media screen and (max-width: 617px) {
@@ -114,6 +116,56 @@
   :root {
     --font-profession: 1.3rem;
   }
+}
+
+/*=== LOGO MEDIA QUERIES ===*/
+@media screen and (max-width: 1000px) {
+  :root {
+    --logo-width-default: 7.25%;
+   }
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --logo-width-default: 7.75%;
+   }
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    --logo-width-default: 8.25%;
+   }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --logo-width-default: 5.25%;
+   }
+}
+
+
+@media screen and (max-width: 600px) {
+  :root {
+    --logo-width-default: 5.75%;
+   }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --logo-width-default: 6.25%;
+   }
+}
+
+@media screen and (max-width: 400px) {
+  :root {
+    --logo-width-default: 15%;
+   }
+}
+
+@media screen and (max-width: 300px) {
+  :root {
+    --logo-width-default: 18%;
+   }
 }
 
 
@@ -277,7 +329,7 @@ img {
 .nav__toggle {}
 
 .nav__logo {
-  width: 6.25%;
+  width: var(--logo-width-default);
 }
 
 .nav__toggle {
