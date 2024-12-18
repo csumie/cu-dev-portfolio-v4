@@ -373,6 +373,19 @@
     }
 }
 
+@media screen and (max-width: 420px) {
+    .portfolio__title {
+      margin-bottom: 15px;
+    }
+    .port__container .left .flex .desc p  {
+      font-size: var(--mobile-font-size);
+    }
+    .port__container .left .flex .desc .portfolio__title {
+      font-size: 25px;
+   }
+}
+
+
 /*===== PORTFOLIO =====*/
 .portfolio__nav {
   text-align: center;
