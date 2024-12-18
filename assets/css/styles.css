@@ -1243,3 +1243,11 @@ img {
     width: 18%;
    }
 }
+
+/*=== CONTACT ICON QUERIES ===*/
+
+@media screen and (max-width: 617px) {
+.contact-icons li {
+    font-size: .950em;
+   }
+}
