@@ -518,3 +518,21 @@ a {
     margin-bottom: 3.2rem;
    }
 }
+
+@media only screen and (max-width: 400px) {
+    .about-horizontal-timeline .about__content li {
+        padding: 0 4% 0vh !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about-timeline-navigation a {
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .about-timeline-navigation a {
+      border-radius: 2px !important;
+      border-right: 2px solid #BBB5AF !important;
+      border-top: 2px solid #BBB5AF !important;
+    }
+}
