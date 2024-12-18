@@ -65,6 +65,14 @@
   --logo-width-default: 6.25%;
 }
 
+  /* ===== ROOT Media Queries ===== */
+
+@media screen and (max-width: 800px) {
+  :root {
+    --secondary-font-size: .9rem;
+   }
+}
+
 @media screen and (max-width: 617px) {
   :root {
     --biggest-font-size: 4.5rem;
@@ -143,7 +151,6 @@
     --logo-width-default: 5.25%;
    }
 }
-
 
 @media screen and (max-width: 600px) {
   :root {

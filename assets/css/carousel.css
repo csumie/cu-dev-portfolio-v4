@@ -355,10 +355,6 @@
     padding-top: 0;
   }
 
-  .portfolio__subtitle {
-    font-size: var(--standard-font-size);
-  }
-
    .port__container .left .menu {
      padding-bottom: 15px;
    }
@@ -383,6 +379,36 @@
     .port__container .left .flex .desc .portfolio__title {
       font-size: 25px;
    }
+}
+
+@media screen and (max-width: 393px) {
+   .port__container .left .flex .desc .portfolio__title {
+     font-size: 22px;
+   }
+}
+
+@media screen and (max-width: 357px) {
+    .port__container .left .flex .desc .portfolio__title {
+        font-size: 20px;
+    }
+    .portfolio__title {
+      margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 334px) {
+    .port__container .left .menu {
+        padding-bottom: 10px;
+    }
+    .port__container .left {
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 313px) {
+    .port__container .left .flex .desc .portfolio__title {
+        font-size: 19px;
+    }
 }
 
 
