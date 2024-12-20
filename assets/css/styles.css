@@ -1,6 +1,6 @@
 /* ===== GOOGLE FONTS ===== */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
 
 /* ===== VARIABLES CSS ===== */
@@ -17,7 +17,7 @@
   --sub-link-color: #383A3D;
   /* ===== Font & Typography ===== */
   --body-font: 'Oswald', sans-serif;
-  --secondary-font: 'Mukta', sans-serif;
+  --secondary-font: 'Libre Franklin', serif;
   --stylized-font: 'Bungee Tint', serif;
   --h1-font-size: 4rem;
   --h2-font-size: 3rem;
@@ -50,6 +50,7 @@
   --z-tootip: 10;
   --z-fixed: 100;
   /* ===== Extras ===== */
+  --subtitle-font: 2rem;
   --font-profession: 1.8rem;
   --normal-font-size: .938rem;
   --semi-normal-font-size: .938rem;
@@ -278,7 +279,7 @@ img {
 
 .section-title-two {
   font-family:var(--stylized-font);
-  font-size: var(--h3-font-size);
+  font-size: var( --subtitle-font);
   color: var(--first-color-light);
   /* margin-bottom: var(--mb-4); */
   font-weight: var(--font-medium);
