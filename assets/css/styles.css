@@ -1,6 +1,7 @@
 /* ===== GOOGLE FONTS ===== */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
 
 /* ===== VARIABLES CSS ===== */
 :root {
@@ -17,6 +18,7 @@
   /* ===== Font & Typography ===== */
   --body-font: 'Oswald', sans-serif;
   --secondary-font: 'Mukta', sans-serif;
+  --stylized-font: 'Bungee Tint', serif;
   --h1-font-size: 4rem;
   --h2-font-size: 3rem;
   --h3-font-size: 2.5rem;
@@ -274,11 +276,20 @@ img {
   font-weight: var(--font-medium);
 }
 
+.section-title-two {
+  font-family:var(--stylized-font);
+  font-size: var(--h3-font-size);
+  color: var(--first-color-light);
+  /* margin-bottom: var(--mb-4); */
+  font-weight: var(--font-medium);
+}
+
 .section-subtitle {
   display: block;
   font-size: var(--smaller-font-size);
   font-weight: var(--font-semi-bold);
 }
+
 
 /*===== LAYOUT =====*/
 .bd-container {
