@@ -70,6 +70,7 @@
   --standard-font-size: 1rem;
   --mobile-font-size: .9rem;
   --cta-font-size: 0.8rem;
+
   /* ===== Defaults ===== */
   --line-height-default: 2.5rem;
   --logo-width-default: 6.25%;
@@ -605,6 +606,7 @@ img {
   font-weight: var(--font-light);
   margin-bottom: var(--mb-3);
   text-transform: uppercase;
+  line-height: 30px;
 }
 
 .home__img {
@@ -1108,13 +1110,7 @@ img {
   }
 }
 
-@media screen and (max-width: 447px) {
-  .home__profession {
-    line-height: 30px;
-  }
-}
-
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 412px) {
   .home__name {
       margin-bottom:var(--mb-11);
   }
