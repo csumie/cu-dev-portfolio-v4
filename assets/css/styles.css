@@ -15,16 +15,20 @@
   --first-color-lighten: #FBF9F9;
   --link-color: #333333;
   --sub-link-color: #383A3D;
-  /* ===== Font & Typography ===== */
+
+  /* ===== Font Family ===== */
   --body-font: 'Oswald', sans-serif;
   --secondary-font: 'Libre Franklin', serif;
   --stylized-font: 'IBM Plex Sans', sans-serif;
+
+  /* ===== Font Size ===== */
   --h1-font-size: 4rem;
   --h2-font-size: 3rem;
   --h3-font-size: 2.5rem;
   --h4-font-size: 1rem;
   --h5-font-size: 1.1em;
   --h6-font-size: 1.152rem;
+
   /* ===== Font weight ===== */
   --font-lighten: 200;
   --font-light: 300;
@@ -32,6 +36,7 @@
   --font-medium: 500;
   --font-semi-bold: 600;
   --font-bold: 700;
+
   /* ===== Margins ===== */
   --mb-1: .5rem;
   --mb-2: 1rem;
@@ -45,11 +50,13 @@
   --mb-10: .50rem;
   --mb-11: .25rem;
   --mb-12: 0rem;
+
   /* ===== z index ===== */
   --z-normal: 1;
   --z-tootip: 10;
   --z-fixed: 100;
-  /* ===== Extras ===== */
+
+  /* ===== Extra Font Sizes ===== */
   --subtitle-font: 2rem;
   --font-profession: 1.8rem;
   --normal-font-size: .938rem;
@@ -68,7 +75,7 @@
   --logo-width-default: 6.25%;
 }
 
-  /* ===== ROOT Media Queries ===== */
+/* ===== ROOT Media Queries ===== */
 
 @media screen and (max-width: 800px) {
   :root {

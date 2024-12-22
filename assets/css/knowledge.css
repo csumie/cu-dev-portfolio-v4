@@ -315,6 +315,7 @@ a {
 .about-horizontal-timeline .about__content .event-title {
   color: var(--first-color-light);
   font-size: var(--font-profession);
+  text-transform: uppercase;
 }
 
 .about-horizontal-timeline .about__content em::before {
