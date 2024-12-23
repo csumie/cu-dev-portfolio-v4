@@ -1061,6 +1061,12 @@ img {
 }
 
 /* For small devices */
+@media screen and (max-width: 650px) {
+.home__img img {
+  width: 300px;
+  }
+}
+
 @media screen and (max-width: 583px) {
   .home__name {
     line-height: 25px;
@@ -1070,6 +1076,7 @@ img {
 @media screen and (max-width: 543px) {
   .home__name {
     line-height: 55px !important;
+    letter-spacing: 0px;
   }
 }
 
