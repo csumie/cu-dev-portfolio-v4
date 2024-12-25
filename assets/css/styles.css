@@ -79,11 +79,11 @@
 
 /* ===== ROOT Media Queries ===== */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   :root {
     --secondary-font-size: .9rem;
    }
-}
+} */
 
 @media screen and (max-width: 617px) {
   :root {
@@ -1083,18 +1083,15 @@ img {
   .home__profession {
     line-height: 35px;
   }
+  .home__img img {
+    width: 260px;
+  }
 }
 
 @media screen and (max-width: 543px) {
   .home__name {
     line-height: 55px !important;
     letter-spacing: 0px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .home__img img {
-    width: 325px;
   }
 }
 
@@ -1121,12 +1118,18 @@ img {
 
 @media screen and (max-width: 320px) {
   .home__img img {
-    width: 200px;
+    width: 240px;
   }
     .home__name {
        font-size: 3.2rem!important;
        line-height: 45px!important;
     }
+}
+
+@media screen and (max-width: 318px) {
+.home__profession {
+  font-size: var(--secondary-font-size);
+  }
 }
 
 @media screen and (max-width: 280px) {
