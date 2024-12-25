@@ -1054,7 +1054,7 @@ img {
     margin-right: var(--mb-4);
     margin-bottom: 0;
   }
-/* 
+/*
   .home__img img {
     width: 420px;
   } */
@@ -1070,6 +1070,18 @@ img {
 @media screen and (max-width: 583px) {
   .home__name {
     line-height: 25px;
+  }
+  .home__profession {
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home__name {
+    line-height: 55px;
+  }
+  .home__profession {
+    line-height: 35px;
   }
 }
 
@@ -1088,7 +1100,9 @@ img {
 
 @media screen and (max-width: 412px) {
   .home__name {
-      margin-bottom:var(--mb-11);
+     font-size: 3.5rem!important;
+     line-height: 50px!important;
+     margin-bottom:var(--mb-11);
   }
   .home__profession {
     font-size: var(--font-profession-two);
