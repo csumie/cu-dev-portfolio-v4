@@ -144,6 +144,10 @@ a {
   border-color: #BBB5AF;
 }
 
+.no-touch .about-horizontal-timeline .events li:hover::before {
+  background-color: #343a40;
+}
+
 .about-horizontal-timeline .events a.selected {
   pointer-events: none;
   color: #BBB5AF;
