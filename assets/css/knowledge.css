@@ -144,9 +144,6 @@ a {
   border-color: #BBB5AF;
 }
 
-.events li:hover {
-  background-color: #343a40;
-}
 
 .about-horizontal-timeline .events a.selected {
   pointer-events: none;
