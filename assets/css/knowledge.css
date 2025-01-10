@@ -345,7 +345,6 @@ a {
     }
 
   .about-horizontal-timeline .about__content p {
-    font-size: var(--normal-font-size);
     font-weight: var(--font-light);
     color: var(--first-color-light);
     line-height: 27px;
