@@ -144,7 +144,7 @@ a {
   border-color: #BBB5AF;
 }
 
-.no-touch .about-horizontal-timeline .events li:hover::before {
+.events li:hover {
   background-color: #343a40;
 }
 
