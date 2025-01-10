@@ -108,6 +108,7 @@ a {
   z-index: 2;
   transform: translateX(-250%) !important;
   text-align: center;
+  text-transform: uppercase;
   /* font-size: 15px; */
   color: #BBB5AF;
   -webkit-transform: translateZ(0);
