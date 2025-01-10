@@ -35,7 +35,7 @@ a {
 
 .about-horizontal-timeline {
   opacity: 0;
-  margin: 5vh auto;
+  margin: 2vh auto;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   transition: opacity 0.2s;
