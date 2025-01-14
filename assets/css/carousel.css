@@ -418,6 +418,18 @@
     }
 }
 
+@media screen and (max-width: 309px) {
+    .port__container .left .flex .desc p {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 301px) {
+    .port__container .left .flex .desc .portfolio__title {
+        font-size: 18px;
+        text-align: left;
+    }
+}
 
 /*===== PORTFOLIO =====*/
 .portfolio__nav {
