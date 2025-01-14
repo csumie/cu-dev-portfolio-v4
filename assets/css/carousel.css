@@ -369,6 +369,12 @@
     }
 }
 
+@media screen and (max-width: 470px) {
+   .port__container .left .flex .desc p {
+      margin: 10px 0 0;
+   }
+}
+
 @media screen and (max-width: 420px) {
     .portfolio__title {
       margin-bottom: 15px;
