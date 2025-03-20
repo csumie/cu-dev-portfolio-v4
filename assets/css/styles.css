@@ -562,7 +562,7 @@ img {
 .home {
   background-color: var(--first-color-dark);
   overflow: hidden;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 .home__container {
