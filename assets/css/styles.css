@@ -585,8 +585,8 @@ img {
   font-size: var(--h1-font-size);
   font-family: var(--body-font);
   line-height: var(--line-height-default);
-  margin-top: var(--mb-8);
-  /* margin-bottom:var(--mb-11); */
+  /* margin-top: var(--mb-8);
+  margin-bottom:var(--mb-11); */
   letter-spacing: 1px;
 }
 
