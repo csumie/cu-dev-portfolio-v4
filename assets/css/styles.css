@@ -536,6 +536,12 @@ img {
   margin: var(--mb-2);
 }
 
+.icon-style {
+  width: 35px;
+  height: auto;
+  font-size: 4.2vw!important;
+}
+
 .row-icons .affect {
   color: var(--first-color-light);
 }

@@ -332,7 +332,7 @@ a {
   color: var(--first-color-light);
   padding-top: 10px;
   margin-top: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .about-horizontal-timeline .about__content em,
@@ -368,7 +368,7 @@ a {
      }
 
      .about__description {
-        text-align: justify!important;
+        text-align: center!important;
      }
 
      .about-timeline-navigation a {
