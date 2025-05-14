@@ -242,7 +242,7 @@ a {
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
   transition: height 0.4s;
-  text-align: left;
+  text-align: center;
 }
 
 .about-horizontal-timeline .about__content ol {
@@ -312,6 +312,7 @@ a {
 .event-title {
   padding: 20px 20px 40px;
   font-family: var(--body-font);
+  text-align: center;
 }
 
 .about-horizontal-timeline .about__content .event-title {
@@ -351,7 +352,7 @@ a {
     color: var(--first-color-light);
     line-height: 27px;
     margin: 20px 20px 0;
-    text-align: left;
+    text-align: center;
    }
 
    .about-horizontal-timeline .about__content li {
