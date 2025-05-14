@@ -536,7 +536,7 @@ img {
   margin: var(--mb-2);
 }
 
-.icon-style {
+.icon-style i {
   width: 35px;
   height: auto;
   font-size: 4.2vw!important;
