@@ -1,8 +1,8 @@
 /* ===== GOOGLE FONTS ===== */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
 
 
 /* ===== VARIABLES CSS ===== */
@@ -21,7 +21,7 @@
   /* ===== Font Family ===== */
   --body-font: 'Oswald', sans-serif;
   --secondary-font: 'Libre Franklin', serif;
-  --stylized-font: 'IBM Plex Sans', sans-serif;
+  /* --stylized-font: 'IBM Plex Sans', sans-serif; */
 
   /* ===== Font Size ===== */
   --h1-font-size: 4rem;
@@ -593,9 +593,7 @@ img {
   font-size: var(--h1-font-size);
   font-family: var(--body-font);
   line-height: var(--line-height-default);
-  /* margin-top: var(--mb-8);
-  margin-bottom:var(--mb-11); */
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .home__greeting,
@@ -616,6 +614,9 @@ img {
   margin-bottom: var(--mb-3);
   text-transform: uppercase;
   line-height: revert;
+  letter-spacing: .2px;
+  margin-left: 5px;
+  margin-top: 2.5px;
 }
 
 .home__img {
@@ -678,13 +679,13 @@ img {
   color: var(--first-color-light);
 }
 
-.style-title {
+/* .style-title {
   font-family:var(--stylized-font);
   font-weight: var(--font-bold);
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--first-color-light);
-}
+} */
 
 /*===== ABOUT =====*/
 .about-me__section {
