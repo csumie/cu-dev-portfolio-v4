@@ -710,14 +710,14 @@ img {
   text-align: center;
 }
 
-.about-exp-section {
+.about__exp-section {
   display: flex;
   gap: 2rem;
   padding: 2rem;
   flex-wrap: wrap;
 }
 
-.about-left-block,
+.about__left-block,
 .about-right-block {
   flex: 1;
   min-width: 300px;
@@ -728,7 +728,7 @@ img {
   margin-bottom: auto;
 }
 
-.about-exp-item {
+.about__exp-item {
   border-bottom: 1px solid #ddd;
   margin-bottom: 1rem;
 }
@@ -775,7 +775,7 @@ img {
 
 /* Responsive layout */
 @media (max-width: 768px) {
-  .about-exp-section {
+  .about__exp-section {
     flex-direction: column;
   }
 }
