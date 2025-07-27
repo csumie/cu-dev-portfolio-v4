@@ -756,7 +756,7 @@ img {
 }
 
 .event-title {
-  padding: 20px;
+  padding: 1rem 0;
   font-family: var(--body-font);
   font-size: var(--third-font-size);
   color: var(--first-color-light);
@@ -768,7 +768,7 @@ img {
   transition: transform 0.3s ease;
   font-size: var(--font-profession-two);
   color: var(--first-color-light);
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .exp__desc {
