@@ -71,7 +71,7 @@
   --secondary-font-size: 1.2rem;
   --third-font-size: 1.1rem;
   --footer-font-size: 1.125rem;
-  --standard-font-size: 1rem;
+  --standard-font-size: .95rem;
   --mobile-font-size: .9rem;
   --cta-font-size: 0.8rem;
 
@@ -753,6 +753,14 @@ img {
   color: #444;
 }
 
+.event-title {
+  padding: 20px 20px 40px;
+  font-family: var(--body-font);
+  color: var(--first-color-light);
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .plus {
   transition: transform 0.3s ease;
 }
@@ -762,6 +770,13 @@ img {
   overflow: hidden;
   opacity: 0;
   transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.exp__desc p {
+  font-size: var(--standard-font-size);
+  font-weight: var(--font-light);
+  color: var(--first-color-light);
+  text-align: justify;
 }
 
 .exp__desc.open {
@@ -795,7 +810,6 @@ img {
   grid-row-gap: 10px;
   justify-items: center;
   align-items: center;
-  margin: 3% 0 0;
 }
 
 .apps__icons {

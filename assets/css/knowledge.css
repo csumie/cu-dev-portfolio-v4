@@ -312,6 +312,7 @@ a {
 .event-title {
   padding: 20px 20px 40px;
   font-family: var(--body-font);
+  color: var(--first-color-light);
   text-align: center;
 }
 
