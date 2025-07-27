@@ -69,6 +69,7 @@
   --biggest-font-size: 4.5rem;
   --regular-font-size: 1.3rem;
   --secondary-font-size: 1.2rem;
+  --third-font-size: 1.1rem;
   --footer-font-size: 1.125rem;
   --standard-font-size: 1rem;
   --mobile-font-size: .9rem;
@@ -262,26 +263,26 @@ img {
   padding: 4rem 0 2rem;
 }
 
-.section-title,
+.section__title,
 .section-subtitle {
   text-align: center;
 }
 
-.section-title--left {
+.section__title--left {
   text-align: left;
   letter-spacing: 4px;
   font-size: var(--h2-font-size);
   color: var(--first-color-light);
 }
 
-.section-title--right {
+.section__title--right {
   text-align: right;
   letter-spacing: 8px;
   font-size: var(--h2-font-size);
   color: var(--first-color-light);
 }
 
-.section-title {
+.section__title {
   font-size: var(--h3-font-size);
   color: var(--first-color-light);
   margin-bottom: var(--mb-4);
@@ -702,12 +703,12 @@ img {
 }
 
 .about-exp-desc{
-  font-size: var(--secondary-font-size);
+  font-size: var(--third-font-size);
   font-weight: var(--font-light);
   color: var(--first-color-light);
   width: auto;
   line-height: 27px;
-  text-align: center;
+  text-align: left;
 }
 
 .about__exp-section {
@@ -718,15 +719,15 @@ img {
 }
 
 .about__left-block,
-.about-right-block {
+.about__right-block {
   flex: 1;
   min-width: 300px;
 }
 
-.about-right-panel {
+/* .about__right-block {
   margin-top: auto;
   margin-bottom: auto;
-}
+} */
 
 .about__exp-item {
   border-bottom: 1px solid #ddd;
@@ -1083,17 +1084,10 @@ img {
     padding: 8rem 0 4rem 0;
   }
 
-  .section-title {
+  .section__title {
     margin-bottom: var(--mb-6);
     font-size: var(--h3-font-size);
     font-family: var(--body-font);
-  }
-
-  .section-title-v2 {
-    margin-bottom: var(--mb-6);
-    font-size: var(--h3-font-size);
-    font-family: var(--body-font);
-    text-align: left;
   }
 
   .nav {
