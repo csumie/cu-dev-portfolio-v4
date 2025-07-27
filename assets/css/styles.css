@@ -366,12 +366,10 @@ img {
   cursor: pointer;
 }
 
-/* Show menu */
 .show-menu {
   top: var(--header-height);
 }
 
-/* Active menu */
 .active-link {
   position: relative;
 }
@@ -450,7 +448,6 @@ img {
 
 .animated-fadeIn-right {
   position: relative;
-  /* left: 3%; */
   animation-name: fadeIn-right;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -471,7 +468,6 @@ img {
 
 .animated-fadeIn-left {
   position: relative;
-  /* right: 3%; */
   animation-name: fadeIn-left;
   animation-duration: 3s;
   animation-fill-mode: forwards;
@@ -679,13 +675,6 @@ img {
   color: var(--first-color-light);
 }
 
-/* .style-title {
-  font-family:var(--stylized-font);
-  font-weight: var(--font-bold);
-  color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--first-color-light);
-} */
 
 /*===== ABOUT =====*/
 .about-me__section {
@@ -719,7 +708,76 @@ img {
   width: auto;
   line-height: 27px;
   text-align: center;
+}
 
+.about-exp-section {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-left-block,
+.about-right-block {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-right-panel {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about-exp-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.exp-title {
+  background: none;
+  border: none;
+  padding: 1rem 0;
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.exp-title:hover {
+  color: #444;
+}
+
+.plus {
+  transition: transform 0.3s ease;
+}
+
+.exp-description {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.exp-description.open {
+  max-height: 500px;
+  opacity: 1;
+}
+
+/* Rotate arrow when open */
+.exp-title.open .plus {
+  transform: rotate(180deg);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .about-exp-section {
+    flex-direction: column;
+  }
 }
 
 .ecommerce__icons{
