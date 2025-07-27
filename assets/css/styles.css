@@ -531,7 +531,7 @@ img {
 
 /*===== ICONS-FADE ANIMATION =====*/
 .affect {
-  font-size: 4vw;
+  font-size: 2vw;
   margin: var(--mb-2);
 }
 
@@ -714,7 +714,7 @@ img {
 .about__exp-section {
   display: flex;
   gap: 2rem;
-  padding: 2rem;
+  /* padding: 2rem; */
   flex-wrap: wrap;
 }
 
@@ -722,6 +722,10 @@ img {
 .about__right-block {
   flex: 1;
   min-width: 300px;
+}
+
+.about__left-block {
+  padding: 0 10px;
 }
 
 /* .about__right-block {
@@ -737,14 +741,12 @@ img {
 .exp__title {
   background: none;
   border: none;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   width: 100%;
   text-align: left;
-  font-size: 1rem;
-  font-weight: 600;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -754,8 +756,9 @@ img {
 }
 
 .event-title {
-  padding: 20px 20px 40px;
+  padding: 20px;
   font-family: var(--body-font);
+  font-size: var(--third-font-size);
   color: var(--first-color-light);
   text-align: center;
   text-transform: uppercase;
@@ -763,6 +766,9 @@ img {
 
 .plus {
   transition: transform 0.3s ease;
+  font-size: var(--font-profession-two);
+  color: var(--first-color-light);
+  margin-top: 3%;
 }
 
 .exp__desc {
