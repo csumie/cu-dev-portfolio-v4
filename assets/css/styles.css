@@ -263,10 +263,10 @@ img {
   padding: 4rem 0 2rem;
 }
 
-.section__title,
+/* .section__title,
 .section-subtitle {
   text-align: center;
-}
+} */
 
 .section__title--left {
   text-align: left;
@@ -585,6 +585,15 @@ img {
   z-index: var(--z-tootip);
   margin-bottom: 35%;
 }
+
+.home__data-two {
+  border-left: 4px solid var(--first-color-light);
+  color: var(--first-color-light);
+  padding-left: 1.5rem;
+  z-index: var(--z-tootip);
+  height: 8vh;
+}
+
 
 .home__name {
   font-size: var(--h1-font-size);
