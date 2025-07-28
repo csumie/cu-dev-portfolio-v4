@@ -791,7 +791,7 @@ img {
   font-size: var(--standard-font-size);
   font-weight: var(--font-light);
   color: var(--first-color-light);
-  text-align: justify;
+  text-align: left;
 }
 
 .exp__desc.open {
@@ -1106,7 +1106,7 @@ img {
   }
 
   .section {
-    padding-top: 10rem;
+    padding: 10rem 0;
   }
 
   .section-footer {
