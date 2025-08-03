@@ -1170,6 +1170,12 @@ img {
   }
 }
 
+@media screen and (max-width: 600px) {
+.section {
+    padding: 4rem 0 0rem;
+  }
+}
+
 @media screen and (max-width: 583px) {
   .home__name {
     line-height: 25px;
@@ -1271,6 +1277,17 @@ img {
   }
 }
 
+@media screen and (max-height: 800px) {
+.home__data-two {
+    margin-top: 0%;
+  }
+}
+
+@media screen and (max-height: 767px) {
+.home__data-two {
+    margin-top: 10%;
+  }
+}
 
 /* Additional Queries */
   @media screen and (min-width: 1024px) {
