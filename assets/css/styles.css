@@ -1164,15 +1164,15 @@ img {
 }
 
 /* For small devices */
-@media screen and (max-width: 650px) {
-.home__img img {
-  width: 300px;
+@media screen and (max-width: 767px) {
+.section {
+    padding: 4rem 0rem;
   }
 }
 
-@media screen and (max-width: 600px) {
-.section {
-    padding: 4rem 0 0rem;
+@media screen and (max-width: 650px) {
+.home__img img {
+  width: 300px;
   }
 }
 
@@ -1278,14 +1278,14 @@ img {
 }
 
 @media screen and (max-height: 800px) {
-.section__title {
-    margin-top: 15%;
+.home__data-two {
+    margin-top: 15%!important;
   }
 }
 
 @media screen and (max-height: 767px) {
-.section__title {
-    margin-top: 10%!important;
+.home__data-two {
+   margin-top: 10%!important;
   }
 }
 
