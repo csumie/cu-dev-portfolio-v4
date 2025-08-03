@@ -259,14 +259,13 @@ img {
 }
 
 /*===== CLASS CSS =====*/
+.section--top {
+  padding: 10rem 0 2rem;
+}
+
 .section {
   padding: 4rem 0 2rem;
 }
-
-/* .section__title,
-.section-subtitle {
-  text-align: center;
-} */
 
 .section__title--left {
   text-align: left;
@@ -1111,10 +1110,6 @@ img {
     margin: 0;
   }
 
-  .section {
-    padding: 5rem 0;
-  }
-
   .section-contact {
     padding: 8rem 0 4rem 0;
   }
@@ -1166,7 +1161,7 @@ img {
 /* For small devices */
 @media screen and (max-width: 767px) {
 .section {
-    padding: 4rem 0rem;
+    padding: 3rem 0rem;
   }
 }
 
@@ -1204,6 +1199,12 @@ img {
   }
 }
 
+@media screen and (max-width: 500px) {
+    .section {
+        padding: 3rem 0rem;
+    }
+}
+
 @media screen and (max-width: 412px) {
   .home__name {
      font-size: 3.5rem!important;
@@ -1217,6 +1218,12 @@ img {
     margin-left: .25rem;
     line-height: 30px;
   }
+}
+
+@media screen and (max-width: 400px) {
+    .section {
+        padding: 2rem 0rem;
+    }
 }
 
 @media screen and (max-width: 377px) {
