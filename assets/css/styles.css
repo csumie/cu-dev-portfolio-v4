@@ -1112,7 +1112,7 @@ img {
   }
 
   .section {
-    padding: 10rem 0;
+    padding: 5rem 0;
   }
 
   .section-contact {
@@ -1273,19 +1273,19 @@ img {
 
   @media screen and (max-height: 767px) {
   .home__data {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
 }
 
 @media screen and (max-height: 800px) {
-.home__data-two {
-    margin-top: 0%;
+.section__title {
+    margin-top: 15%;
   }
 }
 
 @media screen and (max-height: 767px) {
-.home__data-two {
-    margin-top: 10%;
+.section__title {
+    margin-top: 10%!important;
   }
 }
 
