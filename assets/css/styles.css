@@ -772,7 +772,7 @@ img {
 .event-title {
   padding: 1rem 0;
   font-family: var(--body-font);
-  font-size: var(--third-font-size);
+  font-size: var(--secondary-font-size);
   color: var(--first-color-light);
   text-align: center;
   text-transform: uppercase;
