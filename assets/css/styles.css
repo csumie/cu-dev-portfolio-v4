@@ -605,6 +605,7 @@ img {
   font-family: var(--body-font);
   line-height: var(--line-height-default);
   letter-spacing: 0.5px;
+  margin-bottom: 0.5%;
 }
 
 .home__profession {
@@ -615,7 +616,7 @@ img {
   text-transform: uppercase;
   line-height: revert;
   letter-spacing: .2px;
-  margin-left: 5px;
+  margin-left: 0.5%;
   margin-top: 2.5px;
 }
 
@@ -940,12 +941,12 @@ img {
 
 .contact__line {
   display: block;
-  width: 44px;
+  width: 8.5%;
   height: 1px;
   background-color: var(--first-color-light);
   position: relative;
-  margin-left: 5px;
-  margin-top: 2.5px;
+  margin-left: 15%;
+  margin-top: -2%;
 }
 
 .contact__icons {
@@ -953,7 +954,8 @@ img {
   list-style: none;
   margin-top: -3em;
   text-align: left;
-  margin-left: 25px;
+  margin-left: 27%;
+  margin-top: -5%;
 }
 
 .contact__icons li {
