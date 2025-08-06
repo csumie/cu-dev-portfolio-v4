@@ -607,17 +607,6 @@ img {
   letter-spacing: 0.5px;
 }
 
-.home__greeting,
-.home__profession {
-  display: block;
-  font-size:var(--font-light);
-  font-weight: var(--font-medium);
-}
-
-.home__greeting {
-  font-size: .813rem;
-}
-
 .home__profession {
   font-family: var(--body-font);
   font-size: var(--font-profession);
@@ -937,7 +926,29 @@ img {
 
 /*===== CONTACT =====*/
 
-.contact-icons {
+.contact__title {
+    font-family: var(--body-font);
+    font-size: var(--font-profession);
+    font-weight: var(--font-light);
+    margin-bottom: var(--mb-3);
+    text-transform: uppercase;
+    line-height: revert;
+    letter-spacing: .2px;
+    margin-left: 3%;
+    margin-top: -5%;
+}
+
+.contact__line {
+  display: block;
+  width: 44px;
+  height: 1px;
+  background-color: var(--first-color-light);
+  position: relative;
+  margin-left: 5px;
+  margin-top: 2.5px;
+}
+
+.contact__icons {
   padding: 0;
   list-style: none;
   margin-top: -3em;
@@ -945,14 +956,14 @@ img {
   margin-left: 25px;
 }
 
-.contact-icons li {
+.contact__icons li {
   display: inline-block;
   margin: 0.15em;
   position: relative;
   font-size: 1em;
 }
 
-.contact-icons i {
+.contact__icons i {
   color: #010101;
   position: absolute;
   top: 1em;
@@ -960,11 +971,11 @@ img {
   transition: all 265ms ease-out;
 }
 
-.contact-icons a {
+.contact__icons a {
   display: inline-block;
 }
 
-.contact-icons a:before {
+.contact__icons a:before {
   transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
@@ -977,12 +988,12 @@ img {
   transition: all 265ms ease-out;
 }
 
-.contact-icons a:hover:before {
+.contact__icons a:hover:before {
   transform: scale(0);
   transition: all 265ms ease-in;
 }
 
-.contact-icons a:hover i {
+.contact__icons a:hover i {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
