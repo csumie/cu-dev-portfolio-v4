@@ -929,23 +929,23 @@ img {
 
 .contact__title {
     font-family: var(--body-font);
-    font-size: var(--font-profession);
+    font-size: var(--font-profession-two);
     font-weight: var(--font-light);
     margin-bottom: var(--mb-3);
     text-transform: uppercase;
     line-height: revert;
     letter-spacing: .2px;
     margin-left: 3%;
-    margin-top: -5%;
+    margin-top: -8%;
 }
 
 .contact__line {
   display: block;
-  width: 8.5%;
+  width: 11%;
   height: 1px;
   background-color: var(--first-color-light);
   position: relative;
-  margin-left: 15%;
+  margin-left: 13%;
   margin-top: -2%;
 }
 
@@ -1406,6 +1406,15 @@ img {
 }
 
 /*=== CONTACT ICON QUERIES ===*/
+@media screen and (max-width: 960px) {
+.contact__line {
+   width: 9%;
+   margin-left: 14.5%;
+   }
+.contact__title {
+    margin-top: -7.5%;
+   }
+}
 
 @media screen and (max-width: 617px) {
 .contact-icons li {
