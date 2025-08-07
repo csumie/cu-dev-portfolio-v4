@@ -1092,10 +1092,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .contact__form {
+  /* .contact__form {
     width: 450px;
     justify-self: center;
-  }
+  } */
 }
 
 @media screen and (max-width: 320px) {
@@ -1432,20 +1432,31 @@ img {
         margin-top: -6.5%;
         margin-left: 3.5%;
     }
-    .contact__line {
-        width: 8%;
-        margin-left: 15.5%;
-    }
+    .contact__icons {
+        margin-top: -6%;
+       }
 }
 
 @media screen and (min-width: 900px) {
-.contact-icons li {
-    margin-top: -6%;
+   .contact__line {
+       width: 8%;
+       margin-left: 15.5%;
    }
  }
 
+ @media screen and (max-width: 850px) {
+     .contact__title {
+         margin-left: 3.6%;
+     }
+     .contact__line {
+        width: 7%;
+        margin-left: 16.5%;
+    }
+ }
+
+
 @media screen and (max-width: 617px) {
-.contact-icons li {
+.contact__icons li {
     font-size: .950em;
    }
 }
