@@ -1476,8 +1476,88 @@ img {
     }
 }
 
+@media screen and (max-width: 650px) {
+    .contact__title {
+        margin-left: 5%;
+    }
+    .contact__line {
+        margin-left: 22%;
+    }
+    .contact__icons {
+        margin-left: 37%;
+        margin-top: -8.3%;
+  }
+}
 
+@media screen and (max-width: 650px) {
+    .contact__line {
+        margin-left: 24%;
+    }
+    .contact__icons {
+        margin-left: 39%;
+        margin-top: -9%;
+  }
+}
 
+@media screen and (max-width: 600px) {
+    .contact__line {
+        margin-top: -3.5%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contact__title {
+        margin-left: 6%;
+        margin-top: -9%;
+    }
+    .contact__line {
+        margin-top: -4.3%;
+        margin-left: 26%;
+     }
+     .contact__icons {
+        margin-top: -9%;
+        margin-left: 41%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+      .contact__icons {
+          margin-top: -11%;
+          margin-left: 43%;
+      }
+      .contact__line {
+          margin-left: 28%;
+      }
+    }
+
+    @media screen and (max-width: 475px) {
+    .contact__title {
+        margin-left: 6.5%;
+        margin-top: -10%;
+    }
+    .contact__line {
+        margin-left: 30%;
+        margin-top: -4.5%;
+        width: 20%;
+    }
+    .contact__icons {
+        margin-left: 55%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+    .contact__title {
+        margin-left: 7%;
+    }
+    .contact__line {
+        margin-left: 32%;
+        margin-top: -4.8%;
+    }
+    .contact__icons {
+        margin-left: 57%;
+        margin-top: -12%;
+   }
+}
 /* @media screen and (min-width: 960px) {
 .contact__line span {
    width: 9%;
