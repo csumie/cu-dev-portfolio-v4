@@ -1558,6 +1558,36 @@ img {
         margin-top: -12%;
    }
 }
+
+@media screen and (max-width: 430px) {
+    .contact__title {
+        margin-left: 7.5%;
+    }
+    .contact__line {
+        margin-left: 35%;
+        margin-top: -5%;
+    }
+    .contact__icons {
+        margin-left: 60%;
+   }
+}
+
+@media screen and (max-width: 400px) {
+    .contact__title {
+        margin-left: 8%;
+        margin-top: -12%;
+    }
+
+    .contact__line {
+        margin-left: 38%;
+        margin-top: -5.5%;
+   }
+
+   .contact__icons {
+        margin-left: 64%;
+        margin-top: -13%;
+    }
+}
 /* @media screen and (min-width: 960px) {
 .contact__line span {
    width: 9%;
