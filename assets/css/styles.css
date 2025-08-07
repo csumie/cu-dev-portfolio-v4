@@ -941,11 +941,11 @@ img {
 
 .contact__line {
   display: block;
-  width: 11%;
+  width: 10%;
   height: 1px;
   background-color: var(--first-color-light);
   position: relative;
-  margin-left: 13%;
+  margin-left: 14%;
   margin-top: -2%;
 }
 
@@ -1405,8 +1405,8 @@ img {
    }
 }
 
-/*=== CONTACT ICON QUERIES ===*/
-@media screen and (max-width: 960px) {
+/*=== CONTACT QUERIES ===*/
+@media screen and (min-width: 960px) {
 .contact__line {
    width: 9%;
    margin-left: 14.5%;
@@ -1415,6 +1415,34 @@ img {
     margin-top: -7.5%;
    }
 }
+
+@media screen and (max-width: 959px) {
+.contact__line {
+   width: 9%;
+   margin-left: 14.5%;
+   }
+.contact__title {
+    margin-top: -7.5%;
+    margin-left: 3.2%;
+   }
+}
+
+@media screen and (max-width: 900px) {
+    .contact__title {
+        margin-top: -6.5%;
+        margin-left: 3.5%;
+    }
+    .contact__line {
+        width: 8%;
+        margin-left: 15.5%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+.contact-icons li {
+    margin-top: -6%;
+   }
+ }
 
 @media screen and (max-width: 617px) {
 .contact-icons li {
