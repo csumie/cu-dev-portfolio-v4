@@ -388,6 +388,12 @@
    }
 }
 
+@media screen and (max-width: 400px) {
+    .port__container .left .flex .desc  {
+        z-index: 0 !important;
+    }
+}
+
 @media screen and (max-width: 393px) {
    .port__container .left .flex .desc .portfolio__title {
      font-size: 22px;
