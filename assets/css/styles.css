@@ -936,8 +936,8 @@ img {
     text-transform: uppercase;
     line-height: revert;
     letter-spacing: .2px;
-    margin-left: 2.8%;
-    margin-top: -7%;
+    margin-left: 3%;
+    margin-top: -8%;
 }
 
 .contact__line {
@@ -946,7 +946,7 @@ img {
   height: 1px;
   background-color: var(--first-color-light);
   position: relative;
-  margin-left: 11%;
+  margin-left: 11.5%;
   margin-top: -1.8%;
 }
 
