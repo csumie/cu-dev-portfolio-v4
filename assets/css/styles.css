@@ -937,7 +937,7 @@ img {
     line-height: revert;
     letter-spacing: .2px;
     margin-left: 3%;
-    margin-top: -8%;
+    margin-top: -7.5%;
 }
 
 .contact__line {
@@ -1546,8 +1546,11 @@ img {
 
 /*=== CONTACT QUERIES ===*/
 @media screen and (max-width: 1024px) {
-  .contact__title {
-    margin-top: -7%;
+  .contact__line {
+        width: 14%;
+    }
+    .contact__icons {
+        margin-left: 28%;
     }
   }
 
@@ -1555,6 +1558,10 @@ img {
   .contact__title {
     margin-left: 3%;
     }
+    .contact__line {
+          width: 13%;
+          margin-left: 12%;
+      }
   }
 
 @media screen and (max-width: 950px) {
