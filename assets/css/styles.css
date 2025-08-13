@@ -1686,9 +1686,10 @@ img {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 565px) {
     .contact__title {
         margin-left: 5.5%;
+        margin-top: -11%;
     }
     .contact__line {
         margin-top: -3.8%;
@@ -1701,7 +1702,7 @@ img {
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 525px) {
     .contact__title {
         margin-left: 6%;
     }
@@ -1732,6 +1733,7 @@ img {
     @media screen and (max-width: 475px) {
     .contact__title {
         margin-left: 6.5%;
+        margin-top: -12.5%;
     }
     .contact__line {
         margin-left: 27%;
@@ -1745,7 +1747,7 @@ img {
 @media screen and (max-width: 450px) {
     .contact__title {
         margin-left: 7%;
-        margin-top: -12%;
+        margin-top: -14%;
     }
     .contact__line {
         margin-left: 29%;
