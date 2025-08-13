@@ -1559,14 +1559,15 @@ img {
     margin-left: 3%;
     }
     .contact__line {
-          width: 13%;
-          margin-left: 12%;
+        width: 13%;
+        margin-left: 12%;
       }
   }
 
 @media screen and (max-width: 950px) {
   .contact__title {
-      margin-top: -8%;
+      margin-top: -8.5%;
+      margin-left: 3.2%;
   }
   .contact__line {
         width: 15%;
@@ -1596,6 +1597,7 @@ img {
   @media screen and (max-width: 850px) {
     .contact__title {
         margin-left: 3.6%;
+        margin-top: -9%;
     }
     .contact__line {
         margin-top: -2%;
