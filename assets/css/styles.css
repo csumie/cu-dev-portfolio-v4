@@ -1762,29 +1762,32 @@ img {
 @media screen and (max-width: 430px) {
     .contact__title {
         margin-left: 7.5%;
-        margin-top: -14%;
+        margin-top: -15%;
     }
     .contact__line {
         margin-left: 31%;
         margin-top: -4.5%;
     }
     .contact__icons {
-        margin-left:70%;
+        margin-left:69%;
+        margin-top: -12%;
    }
 }
 
 @media screen and (max-width: 400px) {
     .contact__title {
         margin-left: 8%;
+        margin-top: -16%;
     }
 
     .contact__line {
         margin-left: 33%;
         margin-top: -5.2%;
+        width: 36%;
    }
 
    .contact__icons {
-        margin-left: 71%;
+        margin-left: 73%;
         margin-top: -13%;
     }
 }
@@ -1792,33 +1795,35 @@ img {
 @media screen and (max-width: 375px) {
     .contact__title {
         margin-left: 9%;
-        margin-top: -14%;
+        margin-top: -17%;
     }
     .contact__line {
         margin-left: 36%;
         margin-top: -5.85%;
+        width: 38%;
     }
     .contact__icons {
-        margin-left: 74%;
+        margin-left: 78%;
         margin-top: -14%;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .contact__title {
-        margin-top: -16%;
+        margin-top: -19%;
     }
     .contact__line {
         margin-left: 39%;
         margin-top: -6.4%;
+        width: 42%;
     }
     .contact__icons {
-      margin-left: 78%;
-      margin-top: -14%;
+      margin-left: 85%;
+      margin-top: -15%;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 345px) {
     .contact__title {
         margin-left: 10%;
         margin-top: -17%;
