@@ -358,25 +358,25 @@
    .port__container .left .menu {
      padding-bottom: 15px;
    }
-   .port__container .right .s1 {
+   .port__container .right .s1, .s2 {
      height: 200%!important;
    }
 }
 
 @media screen and (max-width: 500px) {
-  .port__container .right .s1 {
+  .port__container .right .s1, .s2 {
       height: 180%!important;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .port__container .right .s1 {
+    .port__container .right .s1, .s2 {
         height: 140% !important;
     }
 }
 
 @media screen and (max-width: 300px) {
-    .port__container .right .s1 {
+    .port__container .right .s1, .s2{
         height: 140% !important;
     }
 }
