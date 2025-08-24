@@ -435,7 +435,7 @@
 
 @media screen and (max-width: 309px) {
     .port__container .left .flex .desc p {
-        margin: 10px 0;
+        margin: 10px 0 15px;
     }
 }
 
