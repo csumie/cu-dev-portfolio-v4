@@ -1,2 +1,2 @@
 User-agent: Googlebot-Image
-Disallow: /assets/img/portfolio_img_cu.png
+Disallow: https://csu.dev/assets/img/portfolio_img_cu.png
